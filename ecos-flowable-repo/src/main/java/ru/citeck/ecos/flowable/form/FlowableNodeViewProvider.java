@@ -411,6 +411,10 @@ public class FlowableNodeViewProvider implements NodeViewProvider, EcosNsPrefixP
     @Override
     public boolean hasNodeView(String taskId, String formId, FormMode mode, Map<String, Object> params) {
         if (taskId.startsWith(ACTIVITI_PREFIX)) {
+            Optional<String> formKey = getFormKey(taskId);
+            if (!formKey.isPresent()) {
+                return false;
+            }
             return typeFormProvider.hasNodeView(getFormKey(taskId).get(), formId, mode, params);
         } else if (taskId.startsWith(FlowableConstants.ENGINE_PREFIX)) {
             return getFormKey(taskId).map(restFormService::hasFormWithKey).orElse(false);
