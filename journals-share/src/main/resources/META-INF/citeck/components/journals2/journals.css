@@ -84,7 +84,6 @@
 .filter-criteria .criterion .criterion-actions{
 	display: table-cell;
 	vertical-align: middle;
-	line-height: 1px;
 }
 
 .filter-criteria .criterion .criterion-actions {
