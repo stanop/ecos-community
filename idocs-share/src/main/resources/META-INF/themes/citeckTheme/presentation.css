@@ -3847,7 +3847,10 @@ span.alfresco-header-Header > span.alf-header-js-wrapper-inner > button.alf-head
 /* workflow form */
 
 .share-form .workflow-form .form-fields .set {
-   padding: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    background: none;
 }
 
 .share-form .workflow-form .form-fields .form-field,
