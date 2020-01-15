@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2008-2015 Citeck LLC.
+ * Copyright (C) 2008-2020 Citeck LLC.
  *
  * This file is part of Citeck EcoS
  *
@@ -37,6 +37,8 @@ import org.alfresco.service.cmr.search.SearchService;
 import org.alfresco.service.namespace.NamespaceService;
 import org.alfresco.service.namespace.QName;
 import org.alfresco.service.transaction.TransactionService;
+import org.apache.commons.collections.CollectionUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import ru.citeck.ecos.model.DmsModel;
@@ -463,18 +465,18 @@ public abstract class AbstractNotificationSender<ItemType> implements Notificati
     }
 
     public Set<String> getRecipients(ItemType task, NodeRef template, NodeRef document) {
-        Set<String> authorities = new HashSet<String>();
+        Set<String> authorities = new HashSet<>();
         Boolean sendToAssigneeProp = isSendToAssignee(template);
-        if (sendToAssigneeProp != null && Boolean.TRUE.equals(sendToAssigneeProp)) {
+        if (Boolean.TRUE.equals(sendToAssigneeProp)) {
             sendToAssignee(task, authorities);
         }
         Boolean sendToInitiatorProp = isSendToInitiator(template);
-        if (sendToInitiatorProp != null && Boolean.TRUE.equals(sendToInitiatorProp)) {
+        if (Boolean.TRUE.equals(sendToInitiatorProp)) {
             sendToInitiator(task, authorities);
         }
         Boolean sendToOwnerProp = (Boolean) nodeService.getProperty(template,
                 qNameConverter.mapNameToQName("dms_sendToOwner"));
-        if (sendToOwnerProp != null && Boolean.TRUE.equals(sendToOwnerProp)
+        if (Boolean.TRUE.equals(sendToOwnerProp)
                 && document != null && nodeService.exists(document)) {
             sendToOwner(authorities, document);
         }
@@ -485,11 +487,11 @@ public abstract class AbstractNotificationSender<ItemType> implements Notificati
         }
         String additionRecipientsStr = (String) nodeService.getProperty(template,
                 qNameConverter.mapNameToQName("dms_additionRecipients"));
-        if (additionRecipientsStr != null && !"".equals(additionRecipientsStr)) {
+        if (StringUtils.isNoneBlank(additionRecipientsStr)) {
             String[] additionRecipientsArr = additionRecipientsStr.split(",");
-            ArrayList<String> additionRecipients = new ArrayList<String>(Arrays.asList(additionRecipientsArr));
+            ArrayList<String> additionRecipients = new ArrayList<>(Arrays.asList(additionRecipientsArr));
 
-            if (additionRecipients != null && additionRecipients.size() > 0) {
+            if (CollectionUtils.isNotEmpty(additionRecipients)) {
                 authorities.addAll(additionRecipients);
 
             }
