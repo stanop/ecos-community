@@ -40,37 +40,37 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>ecos-graphql-share</artifactId>
-            <version>${project.version}</version>
+            <version>${ecos.core.version}</version>
             <type>amp</type>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>1st-override-share</artifactId>
-            <version>${project.version}</version>
+            <version>${ecos.core.version}</version>
             <type>amp</type>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>ecos-base-core-share</artifactId>
-            <version>${project.version}</version>
+            <version>${ecos.core.version}</version>
             <type>amp</type>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>ecos-forms-share</artifactId>
-            <version>${project.version}</version>
+            <version>${ecos.core.version}</version>
             <type>amp</type>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>journals-share</artifactId>
-            <version>${project.version}</version>
+            <version>${ecos.core.version}</version>
             <type>amp</type>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>idocs-share</artifactId>
-            <version>${project.version}</version>
+            <version>${ecos.core.version}</version>
             <type>amp</type>
         </dependency>
         <dependency>
@@ -100,13 +100,13 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>ecos-flowable-share</artifactId>
-            <version>${project.version}</version>
+            <version>${ecos.core.version}</version>
             <type>amp</type>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>ecos-eform-share</artifactId>
-            <version>${project.version}</version>
+            <version>${ecos.core.version}</version>
             <type>amp</type>
         </dependency>
 
