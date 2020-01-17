@@ -1,1 +1,0 @@
-<@views.renderRegion "content" />

@@ -1,1 +1,0 @@
-${predicate.properties['pred:javascriptExpression']}

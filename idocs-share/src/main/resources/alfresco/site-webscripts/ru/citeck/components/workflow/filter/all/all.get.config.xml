@@ -1,5 +1,0 @@
-<config>
-    <filters>
-        <filter id="workflows" data="all" label="link.workflows.all"/>
-    </filters>
-</config>
