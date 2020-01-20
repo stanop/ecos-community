@@ -12,8 +12,14 @@
         },
         {
             "id": "contracts:mainAgreement",
-            "name": "Связь с Договором",
-            "direction": "BOTH",
+            "name": "Связь с договором",
+            "direction": "SOURCE",
+            "target": "model/type$base"
+        },
+        {
+            "id": "contracts:closingDocumentAgreement",
+            "name": "Учетные документы",
+            "direction": "SOURCE",
             "target": "model/type$base"
         }
     ]
