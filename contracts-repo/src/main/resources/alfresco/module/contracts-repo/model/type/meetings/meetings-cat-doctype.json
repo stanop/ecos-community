@@ -1,0 +1,6 @@
+{
+    "id": "meetings-cat-doctype",
+    "name": "Совещания",
+    "parent": "model/type$base",
+    "inheritActions": true
+}

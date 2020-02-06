@@ -1,0 +1,6 @@
+{
+    "id": "orders-cat-doctype-internal/orders-cat-internal-memo",
+    "name": "Служебная записка",
+    "parent": "model/type$orders-cat-doctype-internal",
+    "inheritActions": true
+}
