@@ -1,0 +1,6 @@
+{
+    "id": "letter-doctype-outcome",
+    "name": "Исходящие",
+    "parent": "model/type$base",
+    "inheritActions": true
+}

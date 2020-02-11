@@ -1,0 +1,6 @@
+{
+    "id": "orders-cat-doctype-internal",
+    "name": "Внутренний",
+    "parent": "model/type$base",
+    "inheritActions": true
+}
