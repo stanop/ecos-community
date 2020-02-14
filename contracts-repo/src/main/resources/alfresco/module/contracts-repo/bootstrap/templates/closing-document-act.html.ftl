@@ -83,8 +83,10 @@
 				<td align="right">${containsProductsAndService.properties["pas:pricePerUnit"]!""}</td>
 				<td align="right">${containsProductsAndService.properties["pas:total"]!""}</td>
 			</tr>
-			<#assign total = '${containsProductsAndService.properties["pas:total"]?string.computer!0}'/>
-			<#assign totalAmount = totalAmount + total?number/>
+			<#if containsProductsAndService.properties["pas:total"]??>
+				<#assign total = '${containsProductsAndService.properties["pas:total"]?string.computer!0}'/>
+				<#assign totalAmount = totalAmount + total?number/>
+			</#if>
 		</#list>
 	</#if>
 </table>
