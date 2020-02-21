@@ -1,6 +1,6 @@
 {
     "id": "letter-doctype-income",
     "name": "Входящие",
-    "parent": "model/type$base",
+    "parent": "model/type$user-base",
     "inheritActions": true
 }

@@ -8,7 +8,7 @@
             "id": "contracts:mainAgreement",
             "name": "Relationship to the contract",
             "direction": "TARGET",
-            "target": "model/type$base"
+            "target": "model/type$user-base"
         }
     ]
 }
