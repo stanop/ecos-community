@@ -1,0 +1,6 @@
+{
+    "id": "letter-doctype-income/letter-doctype-income-a",
+    "name": "Бухгалтерский",
+    "parent": "model/type$letter-doctype-income",
+    "inheritActions": true
+}

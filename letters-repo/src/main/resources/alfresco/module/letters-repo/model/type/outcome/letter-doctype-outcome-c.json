@@ -1,0 +1,6 @@
+{
+    "id": "letter-doctype-outcome/letter-doctype-outcome-c",
+    "name": "Разное",
+    "parent": "model/type$letter-doctype-outcome",
+    "inheritActions": true
+}
