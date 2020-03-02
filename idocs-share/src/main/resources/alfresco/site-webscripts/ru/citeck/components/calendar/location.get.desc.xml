@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<webscript>
-	<shortname>Locates to the calendar event</shortname>
-	<url>/citeck/calendar/location?nodeRef={nodeRef}</url>
-</webscript>

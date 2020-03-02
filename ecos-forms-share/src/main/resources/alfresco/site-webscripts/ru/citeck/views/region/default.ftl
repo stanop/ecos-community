@@ -1,1 +1,0 @@
-<!-- default region template: nothing goes here -->

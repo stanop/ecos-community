@@ -1,0 +1,6 @@
+{
+    "id": "orders-cat-doctype-internal/orders-cat-internal-protocol",
+    "name": "Протокол совещания",
+    "parent": "model/type$orders-cat-doctype-internal",
+    "inheritActions": true
+}

@@ -1,6 +1,0 @@
-<webscript>
-    <shortname>sites and journals for user</shortname>
-    <url>/citeck/cardlets/sites-and-journals</url>
-    <format default="json"/>
-    <authentication>user</authentication>
-</webscript>

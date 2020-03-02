@@ -1,1 +1,0 @@
-{"isRoleMember" : ${isRoleMember?string}}

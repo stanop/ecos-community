@@ -1,8 +1,0 @@
-<webscript>
-    <shortname>Refresh resources cache</shortname>
-    <description>Refresh resources cache</description>
-    <url>/citeck/cache/clear</url>
-    <format default="json">argument</format>
-    <authentication>admin</authentication>
-    <transaction>required</transaction>
-</webscript>

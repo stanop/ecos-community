@@ -1,5 +1,0 @@
-<webscript>
-    <shortname>document-associations</shortname>
-    <description>Associations component for document-details page, it uses journal control</description>
-    <url>/citeck/components/document-associations</url>
-</webscript>

@@ -1,8 +1,0 @@
-<webscript>
-    <shortname>reository-node-path</shortname>
-    <url>/citeck/node/repository-path?nodeRef={nodeRef}</url>
-    <format default="json"/>
-    <authentication>user</authentication>
-    <transaction>required</transaction>
-    <lifecycle>public_api</lifecycle>
-</webscript>
