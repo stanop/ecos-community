@@ -3,6 +3,9 @@
     "name": "Договор",
     "parent": "model/type$user-base",
     "inheritActions": true,
+    "actions": [
+        "ui/action$pdf-content-with-barcode"
+    ],
     "associations": [
         {
             "id": "payments:basis",
