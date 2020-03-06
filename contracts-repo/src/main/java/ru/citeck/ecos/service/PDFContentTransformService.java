@@ -26,7 +26,7 @@ public class PDFContentTransformService {
     public DataBundle getTransformContent(NodeRef nodeRef) {
 
         if (nodeService.getProperty(nodeRef, ContentModel.PROP_CONTENT) == null) {
-            logger.info("PDFContentTransformService. Content is null");
+            logger.info("PDFContentTransformService. Content is null. NodeRef = " + nodeRef.toString());
             return null;
         }
 

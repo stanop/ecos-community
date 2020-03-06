@@ -4,6 +4,7 @@ import org.alfresco.repo.content.MimetypeMap;
 import org.alfresco.service.cmr.repository.NodeRef;
 import org.alfresco.service.cmr.repository.NodeService;
 import org.alfresco.service.namespace.QName;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.extensions.webscripts.*;
 import ru.citeck.ecos.model.ContractsModel;
@@ -35,55 +36,66 @@ public class PDFContentWithBarcodeGet extends AbstractWebScript {
     public void execute(WebScriptRequest req, WebScriptResponse res) throws IOException {
 
         String recordRefStr = req.getParameter(PARAM_RECORDREF);
-        if (recordRefStr == null) {
-            res.setStatus(Status.STATUS_BAD_REQUEST);
-            return;
+        if (StringUtils.isBlank(recordRefStr)) {
+            throw new WebScriptException(Status.STATUS_BAD_REQUEST, "recordRef is a mandatory parameter");
         }
 
         String barcodeTypeStr = req.getParameter(PARAM_BARCODETYPE);
-        if (barcodeTypeStr == null) {
-            res.setStatus(Status.STATUS_BAD_REQUEST);
-            return;
+        if (StringUtils.isBlank(barcodeTypeStr)) {
+            throw new WebScriptException(Status.STATUS_BAD_REQUEST, "barcodeType is a mandatory parameter");
         }
 
         NodeRef nodeRef = new NodeRef(recordRefStr);
         if (!nodeService.exists(nodeRef)) {
-            res.setStatus(Status.STATUS_BAD_REQUEST);
-            return;
+            throw new WebScriptException(Status.STATUS_BAD_REQUEST, "Node with NodeRef = " + recordRefStr + " is not found");
         }
 
-        DataBundle transformContent = pdfContentTransformService.getTransformContent(nodeRef);
-        if (transformContent == null) {
-            res.setStatus(Status.STATUS_BAD_REQUEST);
-            return;
-        }
-
+        DataBundle transformContent = null;
         DataBundle pdfFileWithBarcode = null;
-        switch (barcodeTypeStr) {
-            case TYPE_BARCODE128:
-                String barcode = (String) nodeService.getProperty(nodeRef, PROP_BARCODE);
-                if (barcode == null) {
-                    res.setStatus(Status.STATUS_BAD_REQUEST);
-                    return;
-                }
-                pdfFileWithBarcode = pdfBarcodeService.putBarcodeOnDocument(transformContent, barcode);
-                break;
-            case TYPE_QRCODE:
-                pdfFileWithBarcode = pdfBarcodeService.putBarcodeOnDocument(transformContent, null, nodeRef.toString());
-                break;
-            default:
-                pdfFileWithBarcode = transformContent;
-                break;
+
+        try {
+            transformContent = pdfContentTransformService.getTransformContent(nodeRef);
+            if (transformContent == null) {
+                throw new WebScriptException(Status.STATUS_BAD_REQUEST, "Node with NodeRef = " + recordRefStr + " is not found");
+            }
+
+            switch (barcodeTypeStr) {
+                case TYPE_BARCODE128:
+                    String barcode = (String) nodeService.getProperty(nodeRef, PROP_BARCODE);
+                    if (barcode == null) {
+                        res.setStatus(Status.STATUS_BAD_REQUEST);
+                        return;
+                    }
+                    pdfFileWithBarcode = pdfBarcodeService.putBarcodeOnDocument(transformContent, barcode);
+                    break;
+                case TYPE_QRCODE:
+                    pdfFileWithBarcode = pdfBarcodeService.putBarcodeOnDocument(transformContent, null, nodeRef.toString());
+                    break;
+                default:
+                    pdfFileWithBarcode = transformContent;
+                    break;
+            }
+
+            byte[] pdfFileWithBarcodeArray = new byte[pdfFileWithBarcode.getInputStream().available()];
+            pdfFileWithBarcode.getInputStream().read(pdfFileWithBarcodeArray);
+
+            res.getOutputStream().write(pdfFileWithBarcodeArray);
+            res.setStatus(Status.STATUS_OK);
+            res.setContentType(MimetypeMap.MIMETYPE_PDF);
+            res.setHeader("Content-Disposition",
+                Utils.encodeContentDispositionForDownload(req, "Document", "pdf", false));
+
+        } catch (Exception ex) {
+            throw new WebScriptException(Status.STATUS_BAD_REQUEST, ex.getMessage(), ex);
+        } finally {
+            if (transformContent != null && transformContent.getInputStream() != null) {
+                transformContent.getInputStream().close();
+            }
+
+            if (pdfFileWithBarcode != null && pdfFileWithBarcode.getInputStream() != null) {
+                pdfFileWithBarcode.getInputStream().close();
+            }
         }
-
-        byte[] pdfFileWithBarcodeArray = new byte[pdfFileWithBarcode.getInputStream().available()];
-        pdfFileWithBarcode.getInputStream().read(pdfFileWithBarcodeArray);
-
-        res.getOutputStream().write(pdfFileWithBarcodeArray);
-        res.setContentType(MimetypeMap.MIMETYPE_PDF);
-        res.setHeader("Content-Disposition",
-            Utils.encodeContentDispositionForDownload(req, "Document","pdf", false));
-
     }
 
 
