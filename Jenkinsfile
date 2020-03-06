@@ -16,7 +16,7 @@ timestamps {
         ])
       }
       def project_version = readMavenPom().getVersion()
-      if (project_version.contains('SNAPSHOT')
+      if (project_version.contains('SNAPSHOT') {
         echo "Assembly of release artifacts is allowed only from the master branch!"
         currentBuild.result = 'SUCCESS'
         return
