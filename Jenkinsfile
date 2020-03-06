@@ -12,7 +12,7 @@ timestamps {
           doGenerateSubmoduleConfigurations: false,
           extensions: [],
           submoduleCfg: [],
-          userRemoteConfigs: [[credentialsId: 'bc074014-bab1-4fb0-b5a4-4cfa9ded5e66',url: 'git@bitbucket.org:citeck/ecos_community.git']]
+          userRemoteConfigs: [[credentialsId: 'bc074014-bab1-4fb0-b5a4-4cfa9ded5e66',url: 'git@bitbucket.org:citeck/ecos-community-core.git']]
         ])
       }
       def project_version = readMavenPom().getVersion()
@@ -23,7 +23,7 @@ timestamps {
       }
       stage('Assembling and publishing project artifacts') {
         withMaven(mavenLocalRepo: '/opt/jenkins/.m2/repository', tempBinDir: '') {
-          sh "mvn clean deploy -DskipTests=true"
+          sh "mvn clean deploy -Penterprise -DskipTests=true"
         }
       }
     }
