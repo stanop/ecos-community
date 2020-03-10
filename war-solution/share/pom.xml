@@ -39,12 +39,6 @@
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>ecos-graphql-share</artifactId>
-            <version>${ecos.core.version}</version>
-            <type>amp</type>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
             <artifactId>1st-override-share</artifactId>
             <version>${ecos.core.version}</version>
             <type>amp</type>
@@ -172,11 +166,6 @@
                         <overlay>
                             <groupId>org.alfresco.module</groupId>
                             <artifactId>my-share-locale</artifactId>
-                            <type>amp</type>
-                        </overlay>
-                        <overlay>
-                            <groupId>${project.groupId}</groupId>
-                            <artifactId>ecos-graphql-share</artifactId>
                             <type>amp</type>
                         </overlay>
                         <overlay>
