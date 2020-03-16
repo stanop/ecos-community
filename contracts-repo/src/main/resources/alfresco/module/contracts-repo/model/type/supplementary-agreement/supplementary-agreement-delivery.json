@@ -1,6 +1,6 @@
 {
     "id": "supplementary-agreement/contracts-cat-contract-delivery",
     "name": "Договор доставки",
-    "parent": "model/type$supplementary-agreement",
+    "parent": "emodel/type@supplementary-agreement",
     "inheritActions": true
 }
