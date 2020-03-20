@@ -1340,7 +1340,7 @@
                           {
                             "name": "value_gen",
                             "type": "value",
-                            "value": "value = data.payment.totalCount +1;"
+                            "value": "value = \"-\";"
                           }
                         ]
                       },
