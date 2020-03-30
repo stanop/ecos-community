@@ -424,31 +424,7 @@
                                 "encrypted": false,
                                 "customClass": "",
                                 "attributes": {},
-                                "logic": [
-                                    {
-                                        "name": "event",
-                                        "trigger": {
-                                            "simple": {
-                                                "show": true,
-                                                "eq": "",
-                                                "when": "comment"
-                                            },
-                                            "type": "simple"
-                                        },
-                                        "actions": [
-                                            {
-                                                "name": "set_disabled",
-                                                "property": {
-                                                    "label": "Disabled",
-                                                    "type": "boolean",
-                                                    "value": "disabled"
-                                                },
-                                                "state": "true",
-                                                "type": "property"
-                                            }
-                                        ]
-                                    }
-                                ],
+                                "logic": [],
                                 "properties": {}
                             }
                         ],
