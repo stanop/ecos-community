@@ -1,6 +1,9 @@
 {
     "id": "supplementary-agreement",
-    "name": "Договор",
+    "name": {
+        "ru": "Доп.соглашение",
+        "en": "Supplementary agreement"
+    },
     "parent": "emodel/type@contracts-cat-doctype-contract",
     "inheritActions": true,
     "associations": [
