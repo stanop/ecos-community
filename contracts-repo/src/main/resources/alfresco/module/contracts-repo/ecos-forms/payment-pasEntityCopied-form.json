@@ -109,7 +109,7 @@
                                 "inputMask": "",
                                 "wysiwyg": false,
                                 "editor": "",
-                                "id": "eet0439"
+                                "id": "e9ohgp"
                             }
                         ],
                         "width": 6,
@@ -169,7 +169,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e1j8qmf"
+                        "id": "etrghih"
                     },
                     {
                         "components": [
@@ -251,7 +251,7 @@
                                 "inputMask": "",
                                 "wysiwyg": false,
                                 "editor": "",
-                                "id": "e9n9r49"
+                                "id": "e70gdp"
                             }
                         ],
                         "width": 6,
@@ -311,7 +311,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "etimvfn"
+                        "id": "e05yz6"
                     }
                 ],
                 "mask": false,
@@ -369,7 +369,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "ejx3q4d"
+                "id": "emlvwai"
             },
             {
                 "conditional": {
@@ -424,7 +424,7 @@
                 "inputType": "horizontalLine",
                 "useNegativeIndents": true,
                 "addVerticalIndents": false,
-                "id": "epb7ic7"
+                "id": "etanio"
             },
             {
                 "label": "Columns",
@@ -524,7 +524,7 @@
                                 "fuseOptions": {},
                                 "customOptions": {},
                                 "refreshEventName": "",
-                                "id": "e9c5wn"
+                                "id": "eil6iip"
                             }
                         ],
                         "width": 6,
@@ -584,7 +584,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "exv2xw9"
+                        "id": "ec5zq79"
                     },
                     {
                         "components": [
@@ -653,7 +653,7 @@
                                 "refreshOn": "",
                                 "clearOnRefresh": false,
                                 "validateOn": "change",
-                                "id": "eqfeqtb"
+                                "id": "etefili"
                             }
                         ],
                         "width": 6,
@@ -713,7 +713,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ewr8ot7"
+                        "id": "e24jpie"
                     },
                     {
                         "xs": 0,
@@ -794,7 +794,7 @@
                                 "refreshOn": "",
                                 "clearOnRefresh": false,
                                 "validateOn": "change",
-                                "id": "epjmhni"
+                                "id": "e1hw5jg"
                             }
                         ],
                         "index": 2,
@@ -838,7 +838,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ex8jj6"
+                        "id": "eemb3xq"
                     },
                     {
                         "xs": 0,
@@ -920,7 +920,7 @@
                                 "refreshOn": "",
                                 "clearOnRefresh": false,
                                 "validateOn": "change",
-                                "id": "e4n6whi"
+                                "id": "e94eqrv"
                             }
                         ],
                         "index": 3,
@@ -964,7 +964,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ebr32n"
+                        "id": "eeqba1"
                     },
                     {
                         "xs": 0,
@@ -994,7 +994,6 @@
                                     "resource": ""
                                 },
                                 "refreshOnEvent": false,
-                                "readOnlyValue": true,
                                 "selectThreshold": 0.3,
                                 "defaultValue": "",
                                 "refreshOn": [],
@@ -1056,6 +1055,7 @@
                                 "searchEnabled": true,
                                 "searchField": "",
                                 "minSearch": 0,
+                                "readOnlyValue": false,
                                 "authenticate": false,
                                 "template": "<span>{{ item.label }}</span>",
                                 "selectFields": "",
@@ -1063,7 +1063,7 @@
                                 "fuseOptions": {},
                                 "customOptions": {},
                                 "refreshEventName": "",
-                                "id": "ef87zro"
+                                "id": "e9qfka"
                             }
                         ],
                         "index": 4,
@@ -1107,7 +1107,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "erk0b1a"
+                        "id": "euovte5"
                     },
                     {
                         "xs": 0,
@@ -1145,7 +1145,7 @@
                                     "pas_pricePerUnit"
                                 ],
                                 "customDefaultValue": "value = 'workspace://SpacesStore/currency-rur';",
-                                "calculateValue": "const {idocs_currencyDocument = '' } = instance.options.parentForm.data || {};\nvalue = idocs_currencyDocument;\n\n",
+                                "calculateValue": "const {idocs_currencyDocument = '' } = instance.options.parentForm.data || {};\nconst {payments_currency = '' } = instance.options.parentForm.data || {};\n\nif (idocs_currencyDocument != '') {\n    value = idocs_currencyDocument;\n} else if (payments_currency != '') {\n  value = payments_currency;\n}\n\n",
                                 "encrypted": false,
                                 "validate": {
                                     "customMessage": "",
@@ -1208,7 +1208,7 @@
                                 "searchThreshold": 0.3,
                                 "fuseOptions": {},
                                 "customOptions": {},
-                                "id": "e3s5ldn"
+                                "id": "eikaojn"
                             }
                         ],
                         "index": 5,
@@ -1252,7 +1252,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ey53fs4"
+                        "id": "evwv0lh"
                     }
                 ],
                 "mask": false,
@@ -1310,7 +1310,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "ewamklk"
+                "id": "e1ds01u"
             },
             {
                 "label": "Columns",
@@ -1408,7 +1408,7 @@
                                 "mask": false,
                                 "inputType": "asyncData",
                                 "executionCondition": "",
-                                "id": "es10fbj"
+                                "id": "emtc7ed"
                             },
                             {
                                 "label": "unit",
@@ -1501,7 +1501,7 @@
                                 "inputType": "asyncData",
                                 "eventName": "",
                                 "executionCondition": "",
-                                "id": "ekwew9"
+                                "id": "e5zn1jm"
                             }
                         ],
                         "width": 3,
@@ -1561,7 +1561,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "exdiuwj"
+                        "id": "e9pbtic"
                     },
                     {
                         "width": 3,
@@ -1635,7 +1635,7 @@
                                 "disableOnInvalid": false,
                                 "theme": "default",
                                 "removeIndents": false,
-                                "id": "eerfmvb"
+                                "id": "er18mc"
                             }
                         ],
                         "index": 1,
@@ -1679,7 +1679,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "epxipcbh"
+                        "id": "evi9uv"
                     },
                     {
                         "components": [
@@ -1750,7 +1750,7 @@
                                 "rightIcon": "",
                                 "action": "submit",
                                 "removeIndents": false,
-                                "id": "ecuz2nq"
+                                "id": "et04ljp"
                             }
                         ],
                         "width": 3,
@@ -1804,7 +1804,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ell7j9"
+                        "id": "e4jjxuo"
                     },
                     {
                         "width": 3,
@@ -1859,7 +1859,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "egn0rqk"
+                        "id": "eszu3xo"
                     }
                 ],
                 "autoAdjust": true,
@@ -1910,7 +1910,7 @@
                 },
                 "inlineColumns": false,
                 "hideOnChildrenHidden": false,
-                "id": "e9uq15i"
+                "id": "eyckdo"
             }
         ],
         "display": "form"
