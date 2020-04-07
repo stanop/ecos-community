@@ -150,7 +150,7 @@
 				<aspect>idocs:lifeCycle</aspect>
 			</mandatory-aspects>
 		</type>
-		
+
 		<type name="letters:outcome">
 			<parent>idocs:doc</parent>
 			<associations>
@@ -190,15 +190,16 @@
 				<aspect>letters:outcomeType</aspect>
 				<aspect>idocs:hasPerformer</aspect>
 				<aspect>letters:hasDelivery</aspect>
+                <aspect>idocs:hasRestrictedDocumentStatus</aspect>
 				<aspect>idocs:hasSignatory</aspect>
 				<aspect>idocs:lifeCycle</aspect>
 			</mandatory-aspects>
 		</type>
-		
+
 	</types>
-	
+
 	<aspects>
-	
+
 		<aspect name="letters:hasDelivery">
 			<properties>
 				<property name="letters:deliveryMethod">
@@ -210,7 +211,7 @@
 				</property>
 			</properties>
 		</aspect>
-		
+
 		<aspect name="letters:incomeType">
 			<parent>tk:documentTypeKind</parent>
 			<overrides>
@@ -219,7 +220,7 @@
 				</property>
 			</overrides>
 		</aspect>
-		
+
 		<aspect name="letters:outcomeType">
 			<parent>tk:documentTypeKind</parent>
 			<overrides>
@@ -228,7 +229,7 @@
 				</property>
 			</overrides>
 		</aspect>
-		
+
 	</aspects>
 
 </model>
