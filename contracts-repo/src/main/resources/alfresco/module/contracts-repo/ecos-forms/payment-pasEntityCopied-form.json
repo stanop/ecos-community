@@ -988,7 +988,7 @@
                                 "dataSrc": "custom",
                                 "data": {
                                     "url": "/citeck/ecos/records/query",
-                                    "custom": "for (var i in data.unit.records) {\n    values.push({label: data.unit.records[i].unitShortName,value: data.unit.records[i].id})\n}",
+                                    "custom": "const {unit = {}} = data || {};\nconst {records = []} = unit || {};\n\n\nfor (var i in records) {\n    values.push({label: records[i].unitShortName,value: records[i].id})\n}",
                                     "values": [],
                                     "json": "",
                                     "resource": ""
@@ -996,7 +996,9 @@
                                 "refreshOnEvent": false,
                                 "selectThreshold": 0.3,
                                 "defaultValue": "",
-                                "refreshOn": [],
+                                "refreshOn": [
+                                    "unit"
+                                ],
                                 "encrypted": false,
                                 "validate": {
                                     "required": true,
@@ -1133,19 +1135,23 @@
                                 "dataSrc": "custom",
                                 "data": {
                                     "url": "/citeck/ecos/records/query",
-                                    "custom": "for (var i in data.currencyList.records) {\n        values.push({label: data.currencyList.records[i].title,value: data.currencyList.records[i].id})\n}\n",
+                                    "custom": "const {currencyList = {}} = data  || {};\nconst {records = []} = currencyList || {};\nfor (var i in records) {\n        values.push({label: records[i].title, value: records[i].id})\n}\n",
                                     "values": [],
                                     "json": "",
                                     "resource": ""
                                 },
                                 "refreshOnEvent": true,
                                 "refreshEventName": "currencyListEvent",
+                                "searchEnabled": false,
                                 "selectThreshold": 0.3,
+                                "defaultValue": "",
                                 "refreshOn": [
-                                    "pas_pricePerUnit"
+                                    "pas_pricePerUnit",
+                                    "currencyList"
                                 ],
-                                "customDefaultValue": "value = 'workspace://SpacesStore/currency-rur';",
-                                "calculateValue": "const {idocs_currencyDocument = '' } = instance.options.parentForm.data || {};\nconst {payments_currency = '' } = instance.options.parentForm.data || {};\n\nif (idocs_currencyDocument != '') {\n    value = idocs_currencyDocument;\n} else if (payments_currency != '') {\n  value = payments_currency;\n}\n\n",
+                                "customDefaultValue": "",
+                                "calculateValue": "const {parentForm = {}} = instance.options || {};\nconst {idocs_currencyDocument = '' } = parentForm.data || {};\nconst {payments_currency = '' } = parentForm.data || {};\n\nif (idocs_currencyDocument != '') {\n    value = idocs_currencyDocument;\n} else if (payments_currency != '') {\n  value = payments_currency;\n}\n\n",
+                                "allowCalculateOverride": true,
                                 "encrypted": false,
                                 "validate": {
                                     "customMessage": "",
@@ -1170,7 +1176,6 @@
                                 "type": "ecosSelect",
                                 "input": true,
                                 "tags": [],
-                                "defaultValue": "",
                                 "placeholder": "",
                                 "prefix": "",
                                 "customClass": "",
@@ -1191,14 +1196,12 @@
                                 "tabindex": "",
                                 "autofocus": false,
                                 "dbIndex": false,
-                                "allowCalculateOverride": false,
                                 "widget": null,
                                 "clearOnRefresh": false,
                                 "validateOn": "change",
                                 "limit": 100,
                                 "valueProperty": "value",
                                 "filter": "",
-                                "searchEnabled": true,
                                 "searchField": "",
                                 "minSearch": 0,
                                 "readOnlyValue": false,
