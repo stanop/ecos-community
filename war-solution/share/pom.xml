@@ -13,7 +13,7 @@
     <parent>
         <groupId>ru.citeck.ecos.community</groupId>
         <artifactId>war-solution</artifactId>
-        <version>3.18.0-SNAPSHOT</version>
+        <version>3.19.0-SNAPSHOT</version>
     </parent>
 
     <dependencies>
@@ -35,12 +35,6 @@
             <groupId>org.alfresco.module</groupId>
             <artifactId>my-share-locale</artifactId>
             <version>0.1</version>
-            <type>amp</type>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>ecos-graphql-share</artifactId>
-            <version>${ecos.core.version}</version>
             <type>amp</type>
         </dependency>
         <dependency>
@@ -172,11 +166,6 @@
                         <overlay>
                             <groupId>org.alfresco.module</groupId>
                             <artifactId>my-share-locale</artifactId>
-                            <type>amp</type>
-                        </overlay>
-                        <overlay>
-                            <groupId>${project.groupId}</groupId>
-                            <artifactId>ecos-graphql-share</artifactId>
                             <type>amp</type>
                         </overlay>
                         <overlay>

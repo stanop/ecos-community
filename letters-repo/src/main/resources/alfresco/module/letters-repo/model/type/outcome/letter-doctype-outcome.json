@@ -1,6 +1,6 @@
 {
     "id": "letter-doctype-outcome",
     "name": "Исходящие",
-    "parent": "model/type$user-base",
+    "parent": "emodel/type@user-base",
     "inheritActions": true
 }

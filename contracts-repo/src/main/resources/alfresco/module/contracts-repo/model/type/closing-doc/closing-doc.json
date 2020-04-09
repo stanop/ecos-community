@@ -1,20 +1,20 @@
 {
     "id": "contracts-cat-doctype-closing-doc",
     "name": "Закрывающий документ",
-    "parent": "model/type$user-base",
+    "parent": "emodel/type@user-base",
     "inheritActions": true,
     "associations": [
         {
             "id": "contracts:closingDocumentAgreement",
             "name": "Договор",
             "direction": "TARGET",
-            "target": "model/type$user-base"
+            "target": "emodel/type@user-base"
         },
         {
             "id": "contracts:closingDocumentPayment",
             "name": "Платеж",
             "direction": "TARGET",
-            "target": "model/type$user-base"
+            "target": "emodel/type@user-base"
         }
     ]
 }

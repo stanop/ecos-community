@@ -1,7 +1,7 @@
 {
     "id": "contracts-cat-doctype-contract",
     "name": "Договор",
-    "parent": "model/type$user-base",
+    "parent": "emodel/type@user-base",
     "inheritActions": true,
     "actions": [
         "ui/action$pdf-content-with-barcode"
@@ -11,19 +11,19 @@
             "id": "payments:basis",
             "name": "Счета",
             "direction": "SOURCE",
-            "target": "model/type$user-base"
+            "target": "emodel/type@user-base"
         },
         {
             "id": "contracts:mainAgreement",
             "name": "Связь с договором",
             "direction": "SOURCE",
-            "target": "model/type$user-base"
+            "target": "emodel/type@user-base"
         },
         {
             "id": "contracts:closingDocumentAgreement",
             "name": "Учетные документы",
             "direction": "SOURCE",
-            "target": "model/type$user-base"
+            "target": "emodel/type@user-base"
         }
     ]
 }

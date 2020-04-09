@@ -4,7 +4,7 @@
 
     <groupId>ru.citeck.ecos.community</groupId>
     <artifactId>ecos-community</artifactId>
-    <version>3.18.0-SNAPSHOT</version>
+    <version>3.19.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>ecos-community</name>
@@ -66,7 +66,7 @@
         <yuicompressor.compress.skip>false</yuicompressor.compress.skip>
 
         <ecos.flowable.version>1.5.0</ecos.flowable.version>
-        <ecos.core.version>3.22.0-SNAPSHOT</ecos.core.version>
+        <ecos.core.version>3.24.0-SNAPSHOT</ecos.core.version>
 
         <web.compression.skip>false</web.compression.skip>
 
@@ -466,13 +466,6 @@
                 <scope>provided</scope>
             </dependency>
 
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>ecos-graphql-repo</artifactId>
-                <version>${ecos.core.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
         </dependencies>
     </dependencyManagement>
 
@@ -797,13 +790,6 @@
 
                         <moduleDependency>
                             <groupId>${project.groupId}</groupId>
-                            <artifactId>ecos-graphql-repo</artifactId>
-                            <version>${ecos.core.version}</version>
-                            <type>amp</type>
-                        </moduleDependency>
-
-                        <moduleDependency>
-                            <groupId>${project.groupId}</groupId>
                             <artifactId>ecos-eform-repo</artifactId>
                             <version>${ecos.core.version}</version>
                             <type>amp</type>
@@ -890,13 +876,6 @@
                             <groupId>${project.groupId}</groupId>
                             <artifactId>orders-share</artifactId>
                             <version>${project.version}</version>
-                            <type>amp</type>
-                        </moduleDependency>
-
-                        <moduleDependency>
-                            <groupId>${project.groupId}</groupId>
-                            <artifactId>ecos-graphql-share</artifactId>
-                            <version>${ecos.core.version}</version>
                             <type>amp</type>
                         </moduleDependency>
 

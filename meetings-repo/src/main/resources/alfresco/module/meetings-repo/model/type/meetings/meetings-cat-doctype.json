@@ -1,6 +1,6 @@
 {
     "id": "meetings-cat-doctype",
     "name": "Совещания",
-    "parent": "model/type$user-base",
+    "parent": "emodel/type@user-base",
     "inheritActions": true
 }

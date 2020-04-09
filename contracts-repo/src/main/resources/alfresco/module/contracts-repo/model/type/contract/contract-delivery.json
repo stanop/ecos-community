@@ -1,7 +1,7 @@
 {
     "id": "contracts-cat-doctype-contract/contracts-cat-contract-delivery",
     "name": "Договор доставки",
-    "parent": "model/type$contracts-cat-doctype-contract",
+    "parent": "emodel/type@contracts-cat-doctype-contract",
     "inheritActions": true,
     "actions": [
         "ui/action$pdf-content-with-barcode"

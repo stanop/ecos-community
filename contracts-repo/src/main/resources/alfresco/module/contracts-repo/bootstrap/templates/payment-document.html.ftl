@@ -63,9 +63,9 @@
     </#macro>
 
     <#if document.properties["payments:paymentVAT"]??>
-        <#assign VAT = document.properties["payments:paymentVAT"]!0>
+        <#assign percentVAT = '${document.properties["payments:paymentVAT"]?string.computer!0}'>
     <#else>
-        <#assign VAT = 0>
+        <#assign percentVAT = 0>
     </#if>
 
     <@findPayer />
@@ -152,12 +152,13 @@
             <#assign totalAmount = totalAmount + total?number/>
         </#list>
     </#if>
+    <#assign VAT = totalAmount * percentVAT?number / 100/>
                 <tr>
                         <td style="border-style: hidden" colspan="5"><p align="right"><b>Итого:</b></p></td>
                         <td><p align="right">${totalAmount}</p></td>
                 </tr>
                 <tr>
-                        <td style="border-style: hidden" colspan="5"><p align="right"><b>НДС:</b></p></td>
+                        <td style="border-style: hidden" colspan="5"><p align="right"><b>НДС (${percentVAT}%):</b></p></td>
                         <td><p align="right">
                             <#if VAT?? && VAT gt 0>
                                 ${VAT}

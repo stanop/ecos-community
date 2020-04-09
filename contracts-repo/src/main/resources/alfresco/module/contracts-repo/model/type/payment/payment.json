@@ -1,20 +1,20 @@
 {
     "id": "contracts-cat-doctype-payment",
     "name": "Счет",
-    "parent": "model/type$user-base",
+    "parent": "emodel/type@user-base",
     "inheritActions": true,
     "associations": [
         {
             "id": "contracts:closingDocumentPayment",
             "name": "Закрывающий документ",
             "direction": "SOURCE",
-            "target": "model/type$user-base"
+            "target": "emodel/type@user-base"
         },
         {
             "id": "payments:basis",
             "name": "Документ-основание",
             "direction": "TARGET",
-            "target": "model/type$user-base"
+            "target": "emodel/type@user-base"
         }
     ]
 }

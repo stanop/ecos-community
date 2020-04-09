@@ -4,6 +4,7 @@ import org.alfresco.repo.content.MimetypeMap;
 import org.alfresco.service.cmr.repository.NodeRef;
 import org.alfresco.service.cmr.repository.NodeService;
 import org.alfresco.service.namespace.QName;
+import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.extensions.webscripts.*;
@@ -76,7 +77,7 @@ public class PDFContentWithBarcodeGet extends AbstractWebScript {
                     break;
             }
 
-            byte[] pdfFileWithBarcodeArray = new byte[pdfFileWithBarcode.getInputStream().available()];
+            byte[] pdfFileWithBarcodeArray = IOUtils.toByteArray(pdfFileWithBarcode.getInputStream());
             pdfFileWithBarcode.getInputStream().read(pdfFileWithBarcodeArray);
 
             res.getOutputStream().write(pdfFileWithBarcodeArray);
