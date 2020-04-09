@@ -1,8 +1,0 @@
-<webscript>
-    <shortname>Download PDF document with barcode</shortname>
-    <description>Download PDF document with barcode</description>
-    <url>/citeck/contract/pdf-content-with-barcode?recordRef={recordRef}&amp;barcodeType={barcodeType}</url>
-    <format default=""></format>
-    <authentication>user</authentication>
-    <transaction>required</transaction>
-</webscript>

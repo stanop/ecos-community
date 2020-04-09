@@ -1,9 +1,20 @@
 {
     "id": "contracts-cat-doctype-contract/contracts-cat-contract-services",
-    "name": "Договор услуг",
-    "parent": "emodel/type$contracts-cat-doctype-contract",
+    "name": {
+        "en": "Договор услуг"
+    },
+    "description": {
+        "en": ""
+    },
+    "parent": "emodel/type@contracts-cat-doctype-contract",
+    "form": "",
+    "system": false,
+    "dashboardType": null,
     "inheritActions": true,
     "actions": [
-        "ui/action$pdf-content-with-barcode"
-    ]
+        "uiserv/action@pdf-content-with-barcode"
+    ],
+    "associations": [],
+    "createVariants": [],
+    "attributes": {}
 }

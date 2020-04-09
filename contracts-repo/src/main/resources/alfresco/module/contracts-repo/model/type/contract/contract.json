@@ -4,7 +4,7 @@
     "parent": "emodel/type@user-base",
     "inheritActions": true,
     "actions": [
-        "ui/action$pdf-content-with-barcode"
+        "uiserv/action@pdf-content-with-barcode"
     ],
     "associations": [
         {
