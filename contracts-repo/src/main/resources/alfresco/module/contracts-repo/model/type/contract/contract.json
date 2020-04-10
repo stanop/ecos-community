@@ -3,6 +3,9 @@
     "name": "Договор",
     "parent": "emodel/type@user-base",
     "inheritActions": true,
+    "actions": [
+        "uiserv/action@pdf-content-with-barcode"
+    ],
     "associations": [
         {
             "id": "payments:basis",
