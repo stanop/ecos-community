@@ -5,9 +5,7 @@
     <bean id="idocs.IncomeNamingBehaviour" parent="AutoNameBehaviour">
         <property name="className" value="letters:income"/>
         <property name="nameTemplate">
-            <value>
-                <![CDATA[<#if .locale == "ru_RU">Входящий<#else>Incoming</#if> №#{'$'}{node.properties['idocs:registrationNumber']!<#if .locale =="ru_RU">б-н<#else>n/a</#if>}]]>
-            </value>
+            <value><![CDATA[<#if .locale == "ru_RU">Входящий №#{'$'}{node.properties['idocs:registrationNumber']!'б-н'}<#else>Incoming №#{'$'}{node.properties['idocs:registrationNumber']!'n/a'}</#if>]]></value>
         </property>
     </bean>
 
@@ -28,9 +26,7 @@
     <bean id="idocs.OutcomeNamingBehaviour" parent="AutoNameBehaviour">
         <property name="className" value="letters:outcome"/>
         <property name="nameTemplate">
-            <value>
-                <![CDATA[<#if .locale == "ru_RU">Исходящий<#else>Outcoming</#if> №#{'$'}{node.properties['idocs:registrationNumber']!<#if .locale =="ru_RU">б-н<#else>n/a</#if>}]]>
-            </value>
+            <value><![CDATA[<#if .locale == "ru_RU">Исходящий №#{'$'}{node.properties['idocs:registrationNumber']!'б-н'}<#else>Outgoing №#{'$'}{node.properties['idocs:registrationNumber']!'n/a'}</#if>]]></value>
         </property>
     </bean>
 
