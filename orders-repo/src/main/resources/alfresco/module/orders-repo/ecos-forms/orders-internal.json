@@ -12,10 +12,16 @@
     "width": "default",
     "i18n": {
         "ru": {
-            "cm:content": "Содержимое"
+            "cm:content": "Содержимое",
+            "Cancel": "Отмена",
+            "Save": "Сохранить",
+            "Submit": "Создать"
         },
         "en": {
-            "cm:content": "Content"
+            "cm:content": "Content",
+            "Cancel": "Cancel",
+            "Save": "Save",
+            "Submit": "Submit"
         }
     },
     "definition": {
@@ -27,6 +33,7 @@
                         "components": [
                             {
                                 "label": "tk:kind",
+                                "clearOnHide": false,
                                 "mask": false,
                                 "tableView": true,
                                 "alwaysEnabled": false,
@@ -44,7 +51,7 @@
                                 "refreshOn": [
                                     "subCategories"
                                 ],
-                                "customDefaultValue": "value = \"workspace://SpacesStore/orders-cat-internal-order\";",
+                                "customDefaultValue": "value = \"\";",
                                 "encrypted": false,
                                 "validate": {
                                     "required": true,
@@ -78,7 +85,6 @@
                                 "unique": false,
                                 "persistent": true,
                                 "hidden": false,
-                                "clearOnHide": true,
                                 "dataGridLabel": false,
                                 "labelPosition": "top",
                                 "labelWidth": 30,
@@ -110,7 +116,7 @@
                                 "fuseOptions": {},
                                 "customOptions": {},
                                 "refreshEventName": "",
-                                "id": "ebqh9fp"
+                                "id": "ejozmpa"
                             }
                         ],
                         "xs": 0,
@@ -166,7 +172,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ehsl7g"
+                        "id": "eqtm4w"
                     },
                     {
                         "xs": 0,
@@ -186,6 +192,7 @@
                             {
                                 "label": "orders:creationDate",
                                 "format": "MM-dd-yyyy",
+                                "clearOnHide": false,
                                 "mask": false,
                                 "tableView": true,
                                 "alwaysEnabled": false,
@@ -311,117 +318,7 @@
                                                     "Type": "Тип",
                                                     "required": "Поле {{field}} не может быть пустым",
                                                     "Drop files to attach, or": "Перетащите файлы для прикрепления, или",
-                                                    "Size": "Размер",
-                                                    "ufrm:firRegNumber": "Регистрационный номер",
-                                                    "ufrm:firRegDate": "Дата регистрации",
-                                                    "ufrm:firAuthor": "Автор",
-                                                    "ufrm:firRequestor": "Инициатор",
-                                                    "ufrm:firDepartment": "Подразделение",
-                                                    "ufrm:firLegalEntity": "Юр. лицо",
-                                                    "ufrm:firCounterparty": "Контрагент",
-                                                    "idocs:currencyDocument": "Валюта",
-                                                    "ufrm:isPrepaid": "Предоплата",
-                                                    "ufrm:firAmount": "Сумма платежа с НДС",
-                                                    "ufrm:firAmountWOTax": "Сумма платежа без НДС",
-                                                    "ufrm:firVat": "НДС, %",
-                                                    "ufrm:firSigner": "Подписант",
-                                                    "ufrm:firEWorkFlow": "Электронный документооборот",
-                                                    "ufrm:firNote": "Комментарий",
-                                                    "ufrm:generateDefaultDocumentAttachments": "Сгенерировать документы",
-                                                    "ufrm:firGenerateInvoice": "Сгенерировать счет из шаблона",
-                                                    "ufrm:firGenerateAct": "Сгенерировать акт из шаблона",
-                                                    "pas:containsProductsAndServices": "Продукты и услуги",
-                                                    "ufrm:firContract": "Договор",
-                                                    "ufrm:firPaymentStatus": "Статус оплаты в ERP",
-                                                    "ufrm:firNumberERP": "Номер документа в ERP",
-                                                    "ufrm:firDateERP": "Дата документа в ERP",
-                                                    "ufrm:firAmountERP": "Сумма платежа из ERP",
-                                                    "ufrm:firSAPNetDueDate": "Дата платежа по договору (NetDueDate)",
-                                                    "ufrm:firPaymEstimatedDate": "Плановая дата платежа (Treasury)",
-                                                    "ufrm:firPaymentActualDate": "Дата фактической оплаты счета",
-                                                    "ufrm:firAccountNumber": "Расчётный счёт",
-                                                    "ufrm:firBankAccountNumber": "Корреспондентский счёт",
-                                                    "ufrm:firBankDetail": "Наименование учреждения банка",
-                                                    "ufrm:firINN": "ИНН",
-                                                    "ufrm:firKPP": "КПП",
-                                                    "ufrm:firBIK": "БИК",
-                                                    "ufrm:firOKATO": "ОКАТО",
-                                                    "ufrm:firKBK": "КБК",
-                                                    "ufrm:firPaymentPurpose": "Назначение платежа",
-                                                    "ufrm:firRequiresScanning": "Требуется сканирование",
-                                                    "ufrm:firMailAddress": "Почтовый адрес для корреспонденции",
-                                                    "ufrm:firMailReceiver": "Контакт для корреспонденции",
-                                                    "ufrm:firArchiveBoxNumber": "№ Архивного короба",
-                                                    "ufrm:firPagesCount": "Количество листов в пакете",
-                                                    "ufrm:firOriginalsBack": "Оригиналы возвращены инициатору",
-                                                    "ufrm:firCostCenter": "Центр затрат",
-                                                    "icase:documents": "Документы",
-                                                    "ufrm:firNumberPODO": "Номер PO",
-                                                    "ufrm:firGovermentInstitution": "Гос./бюджетное учреждение",
-                                                    "ufrm:firCharity": "Благотворительный инвойс",
-                                                    "ufrm:firNonResident": "Является нерезидентом",
-                                                    "ufrm:firMainDocNumber": "Номер главного документа в пакете",
-                                                    "ufrm:firNumberCAPEX": "Номер CAPEX",
-                                                    "ufrm:firGainVendorDoc": "Наличие документов от контрагента",
-                                                    "ufrm:requestAttachments": "Вложения",
-                                                    "finRequestList": "finRequestList",
-                                                    "caseStatus": "caseStatus",
-                                                    "defaultDepartment": "defaultDepartment",
-                                                    "userFullName": "userFullName",
-                                                    "defaultLegalEntity": "defaultLegalEntity",
-                                                    "lastCurrencyRate": "lastCurrencyRate",
-                                                    "isEDIenabled": "isEDIenabled",
-                                                    "containsProductsAndServices": "containsProductsAndServices",
-                                                    "agreementValues": "agreementValues",
-                                                    "tableUpdateChecker": "tableUpdateChecker",
-                                                    "Additional attributes of payment details": "Дополнительные атрибуты платежных реквизитов",
-                                                    "Payment and accounting ": "Оплата и учет",
-                                                    "Additional": "Дополнительные",
-                                                    "Cancel": "Отмена",
-                                                    "Create": "Создать",
-                                                    "Request type": "Тип заявки",
-                                                    "Save": "Сохранить",
-                                                    "Scanning and verification": "Сканирование и верификация",
-                                                    "Cost center": "Центр затрат",
-                                                    "saveButtonTooltip": " Для сохранения\n необходимо заполнить\n поле \"Тип заявки\"",
-                                                    "Main": "Основные",
-                                                    "fill_signer_message": "Необходимо заполнить подписанта",
-                                                    "tk:kind": "Тип заявки",
-                                                    "orders:creationDate": "Дата создания",
-                                                    "idocs:signatory": "Подписант",
-                                                    "idocs:initiator": "Инициатор",
-                                                    "orders:branch": "Филиал инициатора",
-                                                    "orders:fileCode": "Код дела",
-                                                    "orders:header": "Заголовок",
-                                                    "idocs:registrationNumber": "Номер документа",
-                                                    "idocs:summary": "Краткое содержание",
-                                                    "orders:scanRequired": "Требуется скан подписанного документа",
-                                                    "dms:updateContent": "Сгенерировать из шаблона",
-                                                    "subCategories": "subCategories",
-                                                    "cm:content": "Содержимое",
-                                                    "letters:deliveryMethod": "Доставка",
-                                                    "letters:outcome": "Исходящий документ",
-                                                    "letters:nomenclature": "Дело",
-                                                    "letters:reporterOrganization": "Корреспондент",
-                                                    "letters:letterWriter": "Автор письма",
-                                                    "letters:subdivision": "Подразделение",
-                                                    "letters:receiver": "Получатель",
-                                                    "idocs:note": "Примечание",
-                                                    "idocs:pagesNumber": "Количество листов",
-                                                    "idocs:appendixPagesNumber": "Количество листов приложений",
-                                                    "letters:originalLocation": "Местонахождение оригинала",
-                                                    "letters:copiesCount": "Количество экземпляров",
-                                                    "Accounting": "Бухгалтерский",
-                                                    "Letter from regulatory authorities": "Письмо из надзорных органов",
-                                                    "Miscellaneous": "Разное",
-                                                    "Letter": "Письмо",
-                                                    "Snailmail": "Почта",
-                                                    "Courier": "Курьер",
-                                                    "Fax": "Факс",
-                                                    "Express": "С курьером",
-                                                    "Registered letter": "Заказное письмо",
-                                                    "Registered letter with notification": "Заказное письмо с уведомлением",
-                                                    "Huntsman courier": "Фельдсвязь"
+                                                    "Size": "Размер"
                                                 }
                                             }
                                         }
@@ -436,7 +333,6 @@
                                 "unique": false,
                                 "persistent": true,
                                 "hidden": false,
-                                "clearOnHide": true,
                                 "dataGridLabel": false,
                                 "labelPosition": "top",
                                 "labelWidth": 30,
@@ -470,7 +366,7 @@
                                     "mousewheel": true,
                                     "arrowkeys": true
                                 },
-                                "id": "ecceoqa"
+                                "id": "e6lwom"
                             }
                         ],
                         "placeholder": "",
@@ -513,7 +409,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "etumurl"
+                        "id": "ewahbf9"
                     },
                     {
                         "xs": 0,
@@ -599,7 +495,7 @@
                                 "excludeAuthoritiesByType": "",
                                 "modalTitle": "",
                                 "isSelectedValueAsText": false,
-                                "id": "erxmrnf"
+                                "id": "ekm4wng"
                             }
                         ],
                         "placeholder": "",
@@ -642,7 +538,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ecz2lfm"
+                        "id": "e1krmo"
                     }
                 ],
                 "mask": false,
@@ -700,7 +596,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "esk8fdn"
+                "id": "e5znn4v"
             },
             {
                 "label": "Columns",
@@ -776,7 +672,7 @@
                                 "excludeAuthoritiesByType": "",
                                 "modalTitle": "",
                                 "isSelectedValueAsText": false,
-                                "id": "eooascm"
+                                "id": "enl2pv"
                             }
                         ],
                         "xs": 0,
@@ -832,7 +728,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ei5630f"
+                        "id": "e8s33b"
                     },
                     {
                         "xs": 0,
@@ -850,12 +746,13 @@
                         "label": "Column",
                         "components": [
                             {
-                                "label": "orders:branch",
+                                "label": "orders:toEmployee",
                                 "mask": false,
                                 "tableView": true,
                                 "alwaysEnabled": false,
                                 "hideTabSwitcher": false,
                                 "defaultTab": "TAB_BY_LEVELS",
+                                "defaultValue": "",
                                 "encrypted": false,
                                 "validate": {
                                     "customMessage": "",
@@ -864,14 +761,14 @@
                                     "custom": "",
                                     "customPrivate": false
                                 },
-                                "key": "orders_branch",
+                                "key": "orders_toEmployee",
                                 "properties": {
-                                    "attribute": "orders:branch"
+                                    "attribute": "orders:toEmployee"
                                 },
                                 "conditional": {
-                                    "json": "",
                                     "show": "",
                                     "when": "",
+                                    "json": "",
                                     "eq": ""
                                 },
                                 "customConditional": "",
@@ -880,7 +777,6 @@
                                 "type": "selectOrgstruct",
                                 "input": true,
                                 "tags": [],
-                                "defaultValue": "",
                                 "placeholder": "",
                                 "prefix": "",
                                 "customClass": "",
@@ -918,7 +814,7 @@
                                 "excludeAuthoritiesByType": "",
                                 "modalTitle": "",
                                 "isSelectedValueAsText": false,
-                                "id": "ehseuod"
+                                "id": "e1e3rzn"
                             }
                         ],
                         "placeholder": "",
@@ -961,7 +857,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "exdl2hh"
+                        "id": "ez2b0pi"
                     },
                     {
                         "xs": 0,
@@ -980,15 +876,18 @@
                         "components": [
                             {
                                 "label": "orders:fileCode",
+                                "clearOnHide": false,
                                 "mask": false,
                                 "tableView": true,
                                 "alwaysEnabled": false,
                                 "journalId": "",
                                 "displayColumns": [],
+                                "customPredicateJs": "",
                                 "computed": {
                                     "valueDisplayName": ""
                                 },
                                 "searchField": "",
+                                "presetFilterPredicatesJs": "",
                                 "ecos": {
                                     "dataType": "assoc"
                                 },
@@ -1018,8 +917,6 @@
                                 "type": "selectJournal",
                                 "input": true,
                                 "tags": [],
-                                "customPredicateJs": "",
-                                "presetFilterPredicatesJs": "",
                                 "placeholder": "",
                                 "prefix": "",
                                 "customClass": "",
@@ -1029,7 +926,6 @@
                                 "unique": false,
                                 "persistent": true,
                                 "hidden": false,
-                                "clearOnHide": true,
                                 "dataGridLabel": false,
                                 "labelPosition": "top",
                                 "labelWidth": 30,
@@ -1054,7 +950,7 @@
                                 "hideDeleteRowButton": false,
                                 "isFullScreenWidthModal": false,
                                 "isSelectedValueAsText": false,
-                                "id": "emd28yf"
+                                "id": "er6x6k"
                             }
                         ],
                         "placeholder": "",
@@ -1097,7 +993,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "er3zvc"
+                        "id": "eygpx7"
                     }
                 ],
                 "mask": false,
@@ -1155,7 +1051,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "ex17nl"
+                "id": "e81c1mu"
             },
             {
                 "label": "Columns",
@@ -1237,7 +1133,7 @@
                                 "mask": false,
                                 "inputType": "text",
                                 "inputMask": "",
-                                "id": "eflseh4"
+                                "id": "et226qf"
                             }
                         ],
                         "xs": 0,
@@ -1293,7 +1189,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "evx9vw"
+                        "id": "edpqqoh"
                     },
                     {
                         "xs": 0,
@@ -1315,7 +1211,7 @@
                                 "allowMultipleMasks": false,
                                 "showWordCount": false,
                                 "showCharCount": false,
-                                "disabled": true,
+                                "clearOnHide": false,
                                 "tableView": true,
                                 "alwaysEnabled": false,
                                 "defaultValue": "",
@@ -1364,7 +1260,6 @@
                                 "unique": false,
                                 "persistent": true,
                                 "hidden": false,
-                                "clearOnHide": true,
                                 "dataGridLabel": false,
                                 "labelPosition": "top",
                                 "labelWidth": 30,
@@ -1374,6 +1269,7 @@
                                 "tooltip": "",
                                 "hideLabel": false,
                                 "tabindex": "",
+                                "disabled": false,
                                 "autofocus": false,
                                 "dbIndex": false,
                                 "customDefaultValue": "",
@@ -1385,7 +1281,7 @@
                                 "mask": false,
                                 "inputType": "text",
                                 "inputMask": "",
-                                "id": "eeabqgf"
+                                "id": "eoq885"
                             }
                         ],
                         "placeholder": "",
@@ -1428,7 +1324,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "enrybho"
+                        "id": "ew51ud"
                     }
                 ],
                 "mask": false,
@@ -1486,7 +1382,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "eyvdr7e"
+                "id": "ebsh3rs"
             },
             {
                 "label": "idocs:summary",
@@ -1494,6 +1390,7 @@
                 "isUploadEnabled": false,
                 "showWordCount": false,
                 "showCharCount": false,
+                "clearOnHide": false,
                 "tableView": true,
                 "alwaysEnabled": false,
                 "defaultValue": "",
@@ -1537,7 +1434,6 @@
                 "unique": false,
                 "persistent": true,
                 "hidden": false,
-                "clearOnHide": true,
                 "dataGridLabel": false,
                 "labelPosition": "top",
                 "labelWidth": 30,
@@ -1566,7 +1462,7 @@
                 "inputMask": "",
                 "wysiwyg": false,
                 "editor": "",
-                "id": "ekk5mo"
+                "id": "e84b65b"
             },
             {
                 "label": "orders:scanRequired",
@@ -1631,7 +1527,7 @@
                 "inputType": "checkbox",
                 "value": "",
                 "name": "",
-                "id": "eokdbltn"
+                "id": "emd1c3s"
             },
             {
                 "label": "dms:updateContent",
@@ -1696,7 +1592,7 @@
                 "inputType": "checkbox",
                 "value": "",
                 "name": "",
-                "id": "ejbfe1k"
+                "id": "e1wja9a"
             },
             {
                 "label": "cm:content",
@@ -1780,7 +1676,7 @@
                 "defaultOverlayWidth": 200,
                 "defaultOverlayHeight": 200,
                 "displayElementsJS": {},
-                "id": "ee2tr5sb"
+                "id": "ejv2rr"
             },
             {
                 "label": "Columns",
@@ -1856,7 +1752,7 @@
                                 "disableOnInvalid": false,
                                 "theme": "default",
                                 "removeIndents": false,
-                                "id": "evx8sef"
+                                "id": "etj77ho"
                             }
                         ],
                         "xs": 0,
@@ -1912,7 +1808,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e92648"
+                        "id": "es9foa8"
                     },
                     {
                         "xs": 0,
@@ -1996,7 +1892,7 @@
                                 "disableOnInvalid": false,
                                 "theme": "default",
                                 "removeIndents": false,
-                                "id": "ep0imf9"
+                                "id": "etexhgq"
                             }
                         ],
                         "placeholder": "",
@@ -2039,7 +1935,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ez4cz2"
+                        "id": "ezbzxl9"
                     },
                     {
                         "xs": 0,
@@ -2096,7 +1992,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "exfqqwcp"
+                        "id": "eecrmoy"
                     },
                     {
                         "xs": 0,
@@ -2180,7 +2076,7 @@
                                 "rightIcon": "",
                                 "action": "submit",
                                 "removeIndents": false,
-                                "id": "epid7b4"
+                                "id": "eqz30e"
                             }
                         ],
                         "placeholder": "",
@@ -2223,7 +2119,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ezuit6k"
+                        "id": "ednmhfp"
                     }
                 ],
                 "mask": false,
@@ -2281,7 +2177,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "ebtw1sb"
+                "id": "ep8xgo"
             },
             {
                 "label": "subCategories",
@@ -2374,7 +2270,7 @@
                 "inputType": "asyncData",
                 "eventName": "",
                 "executionCondition": "",
-                "id": "esc7pb7"
+                "id": "emzyu1v"
             }
         ]
     },
