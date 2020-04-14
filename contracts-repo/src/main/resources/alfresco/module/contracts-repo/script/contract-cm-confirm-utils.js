@@ -30,17 +30,17 @@ var confirmUtils = {
         "signing": {
             fn: function () {
                 if (!document.properties['contracts:digiSign']) {
-                    utils.resetActivity("signing-root-stage");
+                    utils.resetActivity("Подписание компанией (Бумажный ДО)");
                 } else {
-                    utils.resetActivity("signing-eds-root-stage");
+                    utils.resetActivity("Подписание компанией (Электронный ДО)");
                 }
-                utils.restartActivity("rework-root-stage");
+                utils.restartActivity("Доработка");
             }
         },
         "counterparty-signing": {
             fn: function () {
-                utils.resetActivity("counterparty-signing-root-stage");
-                utils.restartActivity("rework-root-stage");
+                utils.resetActivity("Подписание Контрагентом (Бумажный ДО)");
+                utils.restartActivity("Доработка");
             },
             condition: function() {
                 return !document.properties['contracts:digiSign'];
@@ -48,8 +48,8 @@ var confirmUtils = {
         },
         "approved": {
             fn: function () {
-                utils.resetActivity("check-signer-root-stage");
-                utils.restartActivity("rework-root-stage");
+                utils.resetActivity("Проверка подписанта");
+                utils.restartActivity("Доработка");
             }
         },
         "reworking": {}
