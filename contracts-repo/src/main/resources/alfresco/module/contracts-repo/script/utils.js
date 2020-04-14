@@ -83,22 +83,26 @@ var utils = {
         return Packages.org.alfresco.repo.security.authentication.AuthenticationUtil.runAsSystem(func);
     },
 
-    restartActivity: function(title) {
-        var activity = caseActivityService.getActivityByTitle(document, title);
+    restartActivity: function(name) {
+        var activity = this.getActivityByName(name);
         if (activity) {
             caseActivityService.reset(activity);
             caseActivityService.startActivity(activity);
         }
     },
 
-    resetActivity: function(title) {
-        var activity = caseActivityService.getActivityByTitle(document, title);
+    resetActivity: function(name) {
+        var activity = this.getActivityByName(name);
         if (activity) caseActivityService.reset(activity);
     },
 
-    startActivity: function(title) {
-        var activity = caseActivityService.getActivityByTitle(document, title);
+    startActivity: function(name) {
+        var activity = this.getActivityByName(name);
         if (activity) caseActivityService.startActivity(activity);
+    },
+
+    getActivityByName: function(name) {
+        return caseActivityService.getActivityByName(document, name);
     },
 
     getActiveWorkflowByTaskType: function(taskType) {
