@@ -31,4 +31,12 @@
         <property name="requiredTaskFormKey" value="ctrwf:scanTask" />
     </bean>
 
+    <bean id="contracts.eproc.registrarForEnabled" class="ru.citeck.ecos.icase.activity.service.eproc.importer.EProcTypeRegistrar">
+        <property name="alfTypes">
+            <list>
+                <value>{http://www.citeck.ru/model/contracts/1.0}agreement</value>
+            </list>
+        </property>
+    </bean>
+
 </beans>

@@ -102,12 +102,7 @@ var utils = {
     },
 
     getActivityByName: function(name) {
-        var activities = document.childAssocs['activ:activities'] || [];
-        for (var i in activities) {
-            if (activities[i].properties['cm:name'] == name) {
-                return activities[i];
-            }
-        }
+        return caseActivityService.getActivityByName(document, name);
     },
 
     getActiveWorkflowByTaskType: function(taskType) {
