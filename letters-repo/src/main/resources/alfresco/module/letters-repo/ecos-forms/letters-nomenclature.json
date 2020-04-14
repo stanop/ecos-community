@@ -10,7 +10,18 @@
     "customModule": null,
     "typeRef": "",
     "width": "default",
-    "i18n": {},
+    "i18n": {
+        "ru": {
+            "Cancel": "Отменить",
+            "Save": "Сохранить",
+            "Submit": "Создать"
+        },
+        "en": {
+            "Cancel": "Cancel",
+            "Save": "Save",
+            "Submit": "Submit"
+        }
+    },
     "definition": {
         "components": [
             {
@@ -88,7 +99,7 @@
                 "mask": false,
                 "inputType": "text",
                 "inputMask": "",
-                "id": "eezdj95"
+                "id": "ek5b6ml"
             },
             {
                 "label": "idocs:fileName",
@@ -165,7 +176,7 @@
                 "mask": false,
                 "inputType": "text",
                 "inputMask": "",
-                "id": "ewp8fw"
+                "id": "erpy83"
             },
             {
                 "label": "idocs:fileYear",
@@ -233,7 +244,7 @@
                 "refreshOn": "",
                 "clearOnRefresh": false,
                 "validateOn": "change",
-                "id": "e5wug7"
+                "id": "ewgoq2d"
             },
             {
                 "label": "idocs:clauseNumber",
@@ -310,7 +321,7 @@
                 "mask": false,
                 "inputType": "text",
                 "inputMask": "",
-                "id": "emrt8lj"
+                "id": "eet1gwc"
             },
             {
                 "label": "Columns",
@@ -386,12 +397,12 @@
                                 "disableOnInvalid": false,
                                 "theme": "default",
                                 "removeIndents": false,
-                                "id": "ep74abb"
+                                "id": "e5h25yk"
                             }
                         ],
                         "xs": 0,
                         "sm": 12,
-                        "md": 4,
+                        "md": 3,
                         "lg": 0,
                         "xl": 0,
                         "classes": "",
@@ -442,12 +453,12 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "es6nk6"
+                        "id": "esct6b"
                     },
                     {
                         "xs": 0,
                         "sm": 12,
-                        "md": 4,
+                        "md": 3,
                         "lg": 0,
                         "xl": 0,
                         "classes": "",
@@ -458,11 +469,67 @@
                         "tableView": true,
                         "label": "Column",
                         "index": 1,
+                        "components": [],
+                        "placeholder": "",
+                        "prefix": "",
+                        "customClass": "",
+                        "suffix": "",
+                        "multiple": false,
+                        "defaultValue": null,
+                        "protected": false,
+                        "unique": false,
+                        "persistent": true,
+                        "hidden": false,
+                        "clearOnHide": true,
+                        "dataGridLabel": false,
+                        "labelPosition": "top",
+                        "labelWidth": 30,
+                        "labelMargin": 3,
+                        "description": "",
+                        "errorLabel": "",
+                        "tooltip": "",
+                        "hideLabel": false,
+                        "tabindex": "",
+                        "disabled": false,
+                        "autofocus": false,
+                        "dbIndex": false,
+                        "customDefaultValue": "",
+                        "calculateValue": "",
+                        "allowCalculateOverride": false,
+                        "widget": null,
+                        "refreshOn": "",
+                        "clearOnRefresh": false,
+                        "validateOn": "change",
+                        "validate": {
+                            "required": false,
+                            "custom": "",
+                            "customPrivate": false
+                        },
+                        "conditional": {
+                            "show": null,
+                            "when": null,
+                            "eq": ""
+                        },
+                        "id": "edok3e"
+                    },
+                    {
+                        "xs": 0,
+                        "sm": 12,
+                        "md": 3,
+                        "lg": 0,
+                        "xl": 0,
+                        "classes": "",
+                        "type": "column",
+                        "input": false,
+                        "hideOnChildrenHidden": false,
+                        "key": "column",
+                        "tableView": true,
+                        "label": "Column",
+                        "index": 2,
                         "components": [
                             {
-                                "label": "Reset",
-                                "action": "reset",
-                                "state": "",
+                                "label": "Save",
+                                "state": "draft",
                                 "shortcut": "",
                                 "block": true,
                                 "mask": false,
@@ -479,9 +546,9 @@
                                 "key": "submit2",
                                 "properties": {},
                                 "conditional": {
-                                    "json": "",
                                     "show": "",
                                     "when": "",
+                                    "json": "",
                                     "eq": ""
                                 },
                                 "customConditional": "",
@@ -490,7 +557,6 @@
                                 "type": "button",
                                 "input": true,
                                 "tags": [],
-                                "showValidations": false,
                                 "placeholder": "",
                                 "prefix": "",
                                 "customClass": "",
@@ -524,10 +590,11 @@
                                 "size": "md",
                                 "leftIcon": "",
                                 "rightIcon": "",
+                                "action": "submit",
                                 "disableOnInvalid": false,
                                 "theme": "default",
                                 "removeIndents": false,
-                                "id": "e8800eti"
+                                "id": "ejvheqt"
                             }
                         ],
                         "placeholder": "",
@@ -570,12 +637,12 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ed76t4k"
+                        "id": "e6hr15g"
                     },
                     {
                         "xs": 0,
                         "sm": 12,
-                        "md": 4,
+                        "md": 3,
                         "lg": 0,
                         "xl": 0,
                         "classes": "",
@@ -585,7 +652,7 @@
                         "key": "column",
                         "tableView": true,
                         "label": "Column",
-                        "index": 2,
+                        "index": 3,
                         "components": [
                             {
                                 "label": "Submit",
@@ -654,7 +721,7 @@
                                 "rightIcon": "",
                                 "action": "submit",
                                 "removeIndents": false,
-                                "id": "e7of2wd"
+                                "id": "ey6vuex"
                             }
                         ],
                         "placeholder": "",
@@ -697,7 +764,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "etatmt"
+                        "id": "e315jaw"
                     }
                 ],
                 "mask": false,
@@ -706,9 +773,9 @@
                 "key": "columns2",
                 "properties": {},
                 "conditional": {
-                    "json": "",
                     "show": "",
                     "when": "",
+                    "json": "",
                     "eq": ""
                 },
                 "customConditional": "",
@@ -755,7 +822,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "e84c2ys"
+                "id": "e0cyepx"
             }
         ]
     },

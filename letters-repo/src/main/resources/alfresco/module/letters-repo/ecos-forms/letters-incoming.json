@@ -22,7 +22,10 @@
             "Express": "С курьером",
             "Registered letter": "Заказное письмо",
             "Registered letter with notification": "Заказное письмо с уведомлением",
-            "Huntsman courier": "Фельдсвязь"
+            "Huntsman courier": "Фельдсвязь",
+            "Cancel": "Отменить",
+            "Save": "Сохранить",
+            "Submit": "Создать"
         },
         "en": {
             "Accounting": "Accounting",
@@ -35,7 +38,10 @@
             "Express": "Express",
             "Registered letter": "Registered letter",
             "Registered letter with notification": "Registered letter with notification",
-            "Huntsman courier": "Huntsman courier"
+            "Huntsman courier": "Huntsman courier",
+            "Cancel": "Cancel",
+            "Save": "Save",
+            "Submit": "Submit"
         }
     },
     "definition": {
