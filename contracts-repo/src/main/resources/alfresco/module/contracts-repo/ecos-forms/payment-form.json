@@ -1,4 +1,4 @@
-{
+﻿{
     "id": "6acdde23-e510-4ab8-bfaa-26c6296feb7a",
     "formKey": "alf_payments:payment",
     "title": {
@@ -238,7 +238,7 @@
                                         "hideDeleteRowButton": false,
                                         "isFullScreenWidthModal": false,
                                         "isSelectedValueAsText": false,
-                                        "id": "eq3ycg"
+                                        "id": "enjwqbg"
                                     }
                                 ],
                                 "classes": "",
@@ -291,7 +291,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "evi9pje"
+                                "id": "emmlxq8"
                             },
                             {
                                 "type": "column",
@@ -388,7 +388,7 @@
                                         "hideDeleteRowButton": false,
                                         "isFullScreenWidthModal": false,
                                         "isSelectedValueAsText": false,
-                                        "id": "e2p34z5"
+                                        "id": "edyqq1t"
                                     }
                                 ],
                                 "classes": "",
@@ -441,7 +441,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "en9dfy"
+                                "id": "ed2jvme"
                             },
                             {
                                 "components": [
@@ -528,7 +528,7 @@
                                         "fuseOptions": {},
                                         "customOptions": {},
                                         "refreshEventName": "",
-                                        "id": "ews8wd"
+                                        "id": "ezzqbf"
                                     }
                                 ],
                                 "classes": "",
@@ -584,7 +584,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "e2as5p8"
+                                "id": "eixgx0h"
                             }
                         ],
                         "key": "columns2",
@@ -632,7 +632,7 @@
                         },
                         "inlineColumns": false,
                         "autoAdjust": false,
-                        "id": "e33easo"
+                        "id": "epo979e"
                     },
                     {
                         "conditional": {
@@ -687,7 +687,7 @@
                         "inputType": "horizontalLine",
                         "useNegativeIndents": true,
                         "addVerticalIndents": false,
-                        "id": "ef1qj9m"
+                        "id": "ekt5tm"
                     },
                     {
                         "conditional": {
@@ -767,7 +767,7 @@
                         "inputMask": "",
                         "wysiwyg": false,
                         "editor": "",
-                        "id": "eluijap"
+                        "id": "es1cg8i"
                     },
                     {
                         "conditional": {
@@ -822,7 +822,7 @@
                         "inputType": "horizontalLine",
                         "useNegativeIndents": true,
                         "addVerticalIndents": false,
-                        "id": "e6ip9j"
+                        "id": "effsy0q"
                     },
                     {
                         "conditional": {
@@ -988,7 +988,7 @@
                                         "hideDeleteRowButton": false,
                                         "isFullScreenWidthModal": false,
                                         "isSelectedValueAsText": false,
-                                        "id": "elauoej"
+                                        "id": "el41uu"
                                     }
                                 ],
                                 "classes": "",
@@ -1041,7 +1041,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "eib55qq"
+                                "id": "e7nhkt"
                             },
                             {
                                 "type": "column",
@@ -1145,7 +1145,7 @@
                                         "fuseOptions": {},
                                         "customOptions": {},
                                         "refreshEventName": "",
-                                        "id": "epwddam"
+                                        "id": "egvl7ld"
                                     }
                                 ],
                                 "classes": "",
@@ -1198,7 +1198,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "edd0s4o"
+                                "id": "e1m99sa"
                             },
                             {
                                 "components": [
@@ -1328,7 +1328,7 @@
                                         "mask": false,
                                         "inputType": "text",
                                         "inputMask": "",
-                                        "id": "er8hzcs"
+                                        "id": "eg9svl"
                                     },
                                     {
                                         "label": "Generate",
@@ -1391,7 +1391,7 @@
                                         "inputType": "checkbox",
                                         "value": "",
                                         "name": "",
-                                        "id": "eakimfs"
+                                        "id": "etlexsv"
                                     }
                                 ],
                                 "classes": "",
@@ -1447,7 +1447,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "eb6pnfg"
+                                "id": "e3k4nc8"
                             }
                         ],
                         "key": "columns3",
@@ -1495,7 +1495,7 @@
                         "inlineColumns": false,
                         "autoAdjust": false,
                         "hideOnChildrenHidden": false,
-                        "id": "eyqv4hb"
+                        "id": "en2rmi5"
                     },
                     {
                         "conditional": {
@@ -1550,7 +1550,7 @@
                         "inputType": "horizontalLine",
                         "useNegativeIndents": true,
                         "addVerticalIndents": false,
-                        "id": "ele6gyv"
+                        "id": "ely6flo"
                     },
                     {
                         "conditional": {
@@ -1716,7 +1716,7 @@
                                         "hideDeleteRowButton": false,
                                         "isFullScreenWidthModal": false,
                                         "isSelectedValueAsText": false,
-                                        "id": "ek2yswt"
+                                        "id": "eka0e7i"
                                     }
                                 ],
                                 "classes": "",
@@ -1769,7 +1769,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "em5lp9"
+                                "id": "e3vsiy"
                             },
                             {
                                 "type": "column",
@@ -1873,7 +1873,7 @@
                                         "fuseOptions": {},
                                         "customOptions": {},
                                         "refreshEventName": "",
-                                        "id": "e96cd3"
+                                        "id": "eu4o6o8"
                                     }
                                 ],
                                 "classes": "",
@@ -1926,7 +1926,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "e07qijq"
+                                "id": "etg35j"
                             },
                             {
                                 "components": [],
@@ -1983,7 +1983,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "en0t0i4"
+                                "id": "e3jb1gp"
                             }
                         ],
                         "key": "columns29",
@@ -2031,7 +2031,7 @@
                         "inlineColumns": false,
                         "autoAdjust": false,
                         "hideOnChildrenHidden": false,
-                        "id": "ej7336"
+                        "id": "e6cg0y"
                     }
                 ],
                 "title": "Main",
@@ -2080,7 +2080,7 @@
                 "theme": "default",
                 "breadcrumb": "default",
                 "lazyLoad": false,
-                "id": "eoeo8ap"
+                "id": "e0l3mp"
             },
             {
                 "conditional": {
@@ -2177,26 +2177,26 @@
                                                 "resources": {
                                                     "en": {
                                                         "translation": {
-                                                            "complete": "Submission Complete",
-                                                            "error": "Please fix the following errors before submitting.",
-                                                            "required": "{{field}} is required",
-                                                            "pattern": "{{field}} does not match the pattern {{pattern}}",
-                                                            "minLength": "{{field}} must be longer than {{length}} characters.",
-                                                            "maxLength": "{{field}} must be shorter than {{length}} characters.",
+                                                            "complete": "Сохранение прошло успешно",
+                                                            "error": "Пожалуйста, исправьте следующие ошибки перед отправкой:",
+                                                            "required": "Поле {{field}} не может быть пустым",
+                                                            "pattern": "{{field}} не совпадает с паттерном {{pattern}}",
+                                                            "minLength": "{{field}} должен быть длиннее чем {{length}} символов.",
+                                                            "maxLength": "{{field}} должен быть короче чем {{length}} символов.",
                                                             "minWords": "{{field}} must have more than {{length}} words.",
                                                             "maxWords": "{{field}} must have less than {{length}} words.",
-                                                            "min": "{{field}} cannot be less than {{min}}.",
-                                                            "max": "{{field}} cannot be greater than {{max}}.",
+                                                            "min": "{{field}} не может быть меньше чем {{min}}.",
+                                                            "max": "{{field}} не может быть больше чем {{max}}.",
                                                             "minSelectedCount": "You must select at least {{minCount}} items to continue.",
                                                             "maxSelectedCount": "You can only select up to {{maxCount}} items to continue.",
                                                             "maxDate": "{{field}} should not contain date after {{- maxDate}}",
                                                             "minDate": "{{field}} should not contain date before {{- minDate}}",
-                                                            "invalid_email": "{{field}} must be a valid email.",
+                                                            "invalid_email": "{{field}} некорректный email.",
                                                             "invalid_url": "{{field}} must be a valid url.",
-                                                            "invalid_regex": "{{field}} does not match the pattern {{regex}}.",
-                                                            "invalid_date": "{{field}} is not a valid date.",
+                                                            "invalid_regex": "{{field}} не соответствует паттерну {{regex}}.",
+                                                            "invalid_date": "{{field}} некорректная дата.",
                                                             "invalid_day": "{{field}} is not a valid day.",
-                                                            "mask": "{{field}} does not match the mask.",
+                                                            "mask": "{{field}} не совпадает с маской.",
                                                             "stripe": "{{stripe}}",
                                                             "month": "Month",
                                                             "day": "Day",
@@ -2213,10 +2213,16 @@
                                                             "october": "October",
                                                             "november": "November",
                                                             "december": "December",
-                                                            "next": "Next",
-                                                            "previous": "Previous",
+                                                            "next": "Далее",
+                                                            "previous": "Назад",
                                                             "cancel": "Cancel",
-                                                            "submit": "Submit Form"
+                                                            "submit": "Submit Form",
+                                                            "or": "или",
+                                                            "browse": "выбрать",
+                                                            "File Name": "Имя файла",
+                                                            "Type": "Тип",
+                                                            "Drop files to attach, or": "Перетащите файлы для прикрепления, или",
+                                                            "Size": "Размер"
                                                         }
                                                     },
                                                     "ru": {
@@ -2295,7 +2301,7 @@
                                         "displayInTimezone": "viewer",
                                         "timezone": "",
                                         "datepickerMode": "day",
-                                        "id": "edzsmu"
+                                        "id": "eese23"
                                     }
                                 ],
                                 "classes": "",
@@ -2348,7 +2354,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "egdmm5a"
+                                "id": "eu1qh3s"
                             },
                             {
                                 "type": "column",
@@ -2410,26 +2416,26 @@
                                                 "resources": {
                                                     "en": {
                                                         "translation": {
-                                                            "complete": "Submission Complete",
-                                                            "error": "Please fix the following errors before submitting.",
-                                                            "required": "{{field}} is required",
-                                                            "pattern": "{{field}} does not match the pattern {{pattern}}",
-                                                            "minLength": "{{field}} must be longer than {{length}} characters.",
-                                                            "maxLength": "{{field}} must be shorter than {{length}} characters.",
+                                                            "complete": "Сохранение прошло успешно",
+                                                            "error": "Пожалуйста, исправьте следующие ошибки перед отправкой:",
+                                                            "required": "Поле {{field}} не может быть пустым",
+                                                            "pattern": "{{field}} не совпадает с паттерном {{pattern}}",
+                                                            "minLength": "{{field}} должен быть длиннее чем {{length}} символов.",
+                                                            "maxLength": "{{field}} должен быть короче чем {{length}} символов.",
                                                             "minWords": "{{field}} must have more than {{length}} words.",
                                                             "maxWords": "{{field}} must have less than {{length}} words.",
-                                                            "min": "{{field}} cannot be less than {{min}}.",
-                                                            "max": "{{field}} cannot be greater than {{max}}.",
+                                                            "min": "{{field}} не может быть меньше чем {{min}}.",
+                                                            "max": "{{field}} не может быть больше чем {{max}}.",
                                                             "minSelectedCount": "You must select at least {{minCount}} items to continue.",
                                                             "maxSelectedCount": "You can only select up to {{maxCount}} items to continue.",
                                                             "maxDate": "{{field}} should not contain date after {{- maxDate}}",
                                                             "minDate": "{{field}} should not contain date before {{- minDate}}",
-                                                            "invalid_email": "{{field}} must be a valid email.",
+                                                            "invalid_email": "{{field}} некорректный email.",
                                                             "invalid_url": "{{field}} must be a valid url.",
-                                                            "invalid_regex": "{{field}} does not match the pattern {{regex}}.",
-                                                            "invalid_date": "{{field}} is not a valid date.",
+                                                            "invalid_regex": "{{field}} не соответствует паттерну {{regex}}.",
+                                                            "invalid_date": "{{field}} некорректная дата.",
                                                             "invalid_day": "{{field}} is not a valid day.",
-                                                            "mask": "{{field}} does not match the mask.",
+                                                            "mask": "{{field}} не совпадает с маской.",
                                                             "stripe": "{{stripe}}",
                                                             "month": "Month",
                                                             "day": "Day",
@@ -2446,10 +2452,16 @@
                                                             "october": "October",
                                                             "november": "November",
                                                             "december": "December",
-                                                            "next": "Next",
-                                                            "previous": "Previous",
+                                                            "next": "Далее",
+                                                            "previous": "Назад",
                                                             "cancel": "Cancel",
-                                                            "submit": "Submit Form"
+                                                            "submit": "Submit Form",
+                                                            "or": "или",
+                                                            "browse": "выбрать",
+                                                            "File Name": "Имя файла",
+                                                            "Type": "Тип",
+                                                            "Drop files to attach, or": "Перетащите файлы для прикрепления, или",
+                                                            "Size": "Размер"
                                                         }
                                                     },
                                                     "ru": {
@@ -2536,7 +2548,7 @@
                                             "mousewheel": true,
                                             "arrowkeys": true
                                         },
-                                        "id": "ex5mrf"
+                                        "id": "ezg2bvr"
                                     }
                                 ],
                                 "classes": "",
@@ -2589,7 +2601,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "el9ugeo"
+                                "id": "efmwhm7"
                             },
                             {
                                 "components": [
@@ -2676,7 +2688,7 @@
                                         "searchThreshold": 0.3,
                                         "fuseOptions": {},
                                         "customOptions": {},
-                                        "id": "e97h4l"
+                                        "id": "ekprk6d"
                                     }
                                 ],
                                 "classes": "",
@@ -2732,7 +2744,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "efvao5"
+                                "id": "eldn8ur"
                             }
                         ],
                         "key": "columns25",
@@ -2780,7 +2792,7 @@
                         "inlineColumns": false,
                         "autoAdjust": false,
                         "hideOnChildrenHidden": false,
-                        "id": "efdlf7r"
+                        "id": "e9jqja"
                     }
                 ],
                 "title": "Date",
@@ -2836,7 +2848,7 @@
                 "theme": "default",
                 "breadcrumb": "default",
                 "lazyLoad": false,
-                "id": "eootugl"
+                "id": "er02fep"
             },
             {
                 "conditional": {
@@ -2979,7 +2991,7 @@
                                         "searchThreshold": 0.3,
                                         "fuseOptions": {},
                                         "customOptions": {},
-                                        "id": "etdhi2k"
+                                        "id": "eskfbir"
                                     },
                                     {
                                         "conditional": {
@@ -3044,7 +3056,7 @@
                                         "inputType": "checkbox",
                                         "value": "",
                                         "name": "",
-                                        "id": "euj3qv"
+                                        "id": "esjn95g"
                                     }
                                 ],
                                 "classes": "",
@@ -3097,7 +3109,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "ec1b6lf"
+                                "id": "efnryt9"
                             },
                             {
                                 "type": "column",
@@ -3213,7 +3225,7 @@
                                         "refreshOn": "",
                                         "clearOnRefresh": false,
                                         "validateOn": "change",
-                                        "id": "e9e91op"
+                                        "id": "eismxhm"
                                     }
                                 ],
                                 "classes": "",
@@ -3266,7 +3278,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "e270fql"
+                                "id": "en3xb2ti"
                             },
                             {
                                 "components": [
@@ -3335,7 +3347,7 @@
                                         "refreshOn": "",
                                         "clearOnRefresh": false,
                                         "validateOn": "change",
-                                        "id": "e9wefn"
+                                        "id": "ejhpcw"
                                     }
                                 ],
                                 "classes": "",
@@ -3391,7 +3403,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "e66hoc9"
+                                "id": "eryugpk"
                             },
                             {
                                 "components": [],
@@ -3448,7 +3460,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "eng7gk"
+                                "id": "esm22xn"
                             }
                         ],
                         "key": "columns31",
@@ -3496,7 +3508,7 @@
                         "inlineColumns": false,
                         "autoAdjust": false,
                         "hideOnChildrenHidden": false,
-                        "id": "ew0y1jo"
+                        "id": "ev52zpq"
                     }
                 ],
                 "title": "Finance",
@@ -3551,7 +3563,7 @@
                 "theme": "default",
                 "breadcrumb": "default",
                 "lazyLoad": false,
-                "id": "e97tu7"
+                "id": "e2maojh"
             },
             {
                 "conditional": {
@@ -3652,7 +3664,7 @@
                                         "inputType": "checkbox",
                                         "value": "",
                                         "name": "",
-                                        "id": "e05p3c6"
+                                        "id": "ezu1x8"
                                     }
                                 ],
                                 "classes": "d-flex align-items-md-center",
@@ -3705,7 +3717,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "eplwec"
+                                "id": "ejdn32d"
                             },
                             {
                                 "type": "column",
@@ -3766,7 +3778,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "eqr8qs"
+                                "id": "e1qazn"
                             }
                         ],
                         "key": "columns28",
@@ -3814,7 +3826,7 @@
                         "inlineColumns": false,
                         "autoAdjust": false,
                         "hideOnChildrenHidden": false,
-                        "id": "el2wchk"
+                        "id": "eatmizn"
                     },
                     {
                         "conditional": {
@@ -3839,44 +3851,43 @@
                                 "input": false,
                                 "components": [
                                     {
-                                        "conditional": {
-                                            "show": "",
-                                            "json": "",
-                                            "when": "",
-                                            "eq": ""
-                                        },
-                                        "defaultValue": [],
-                                        "dir": "",
-                                        "type": "file",
-                                        "options": "",
-                                        "customConditional": "show = ((instance.options.formMode === 'CREATE' && !data.dms_updateContent) || instance.options.formMode !== 'CREATE') ? true : false;",
+                                        "label": "cm:content",
                                         "clearOnHide": false,
+                                        "mask": false,
+                                        "tableView": true,
+                                        "alwaysEnabled": false,
+                                        "onFileClick": "download",
+                                        "storage": "url",
+                                        "url": "/share/proxy/alfresco/eform/file",
+                                        "options": "",
+                                        "dir": "",
+                                        "fileNameTemplate": "",
+                                        "webcam": false,
                                         "fileTypes": [
                                             {
                                                 "label": "",
                                                 "value": ""
                                             }
                                         ],
-                                        "tags": [],
-                                        "input": true,
-                                        "alwaysEnabled": false,
-                                        "webcam": false,
-                                        "fileNameTemplate": "",
-                                        "storage": "url",
-                                        "key": "cm_content",
-                                        "mask": false,
+                                        "encrypted": false,
                                         "validate": {
+                                            "required": true,
                                             "customMessage": "",
                                             "json": "",
-                                            "required": true,
                                             "custom": "",
                                             "customPrivate": false
                                         },
-                                        "tableView": true,
-                                        "label": "cm:content",
-                                        "url": "/share/proxy/alfresco/eform/file",
-                                        "encrypted": false,
-                                        "attributes": {},
+                                        "key": "cm_content",
+                                        "properties": {
+                                            "attribute": "cm:content"
+                                        },
+                                        "conditional": {
+                                            "show": "",
+                                            "when": "",
+                                            "json": "",
+                                            "eq": ""
+                                        },
+                                        "customConditional": "show = ((instance.options.formMode === 'CREATE' && !data.dms_updateContent) || instance.options.formMode !== 'CREATE') ? true : false;",
                                         "logic": [
                                             {
                                                 "name": "required_off",
@@ -3898,9 +3909,11 @@
                                                 ]
                                             }
                                         ],
-                                        "properties": {
-                                            "attribute": "cm:content"
-                                        },
+                                        "attributes": {},
+                                        "type": "file",
+                                        "defaultValue": [],
+                                        "tags": [],
+                                        "input": true,
                                         "placeholder": "",
                                         "prefix": "",
                                         "customClass": "",
@@ -3938,20 +3951,20 @@
                                         "uploadOnly": false,
                                         "defaultOverlayWidth": 200,
                                         "defaultOverlayHeight": 200,
-                                        "onFileClick": "openDashboard",
                                         "displayElementsJS": {},
-                                        "id": "ezopzjb"
+                                        "id": "ehquj8o"
                                     },
                                     {
-                                        "conditional": {
-                                            "show": "",
-                                            "json": "",
-                                            "when": "",
-                                            "eq": ""
-                                        },
-                                        "_journalId": "alf_term:teReqRoute",
-                                        "defaultValue": [],
+                                        "label": "pas:containsProductsAndServices",
+                                        "multiple": true,
+                                        "reorder": false,
+                                        "clearOnHide": false,
+                                        "mask": false,
+                                        "tableView": true,
+                                        "alwaysEnabled": false,
+                                        "eventName": "routeTableUpdate",
                                         "source": {
+                                            "type": "custom",
                                             "journal": {
                                                 "columns": [],
                                                 "journalId": null
@@ -3959,60 +3972,76 @@
                                             "custom": {
                                                 "columns": [
                                                     {
-                                                        "name": "cm:title"
+                                                        "name": "cm:title",
+                                                        "formatter": "",
+                                                        "setAttributesManually": false
                                                     },
                                                     {
-                                                        "name": "cm:description"
+                                                        "name": "cm:description",
+                                                        "formatter": "",
+                                                        "setAttributesManually": false
                                                     },
                                                     {
-                                                        "name": "pas:pricePerUnit"
+                                                        "name": "pas:pricePerUnit",
+                                                        "formatter": "",
+                                                        "setAttributesManually": false
                                                     },
                                                     {
-                                                        "name": "pas:quantity"
+                                                        "name": "pas:quantity",
+                                                        "formatter": "",
+                                                        "setAttributesManually": false
                                                     },
                                                     {
-                                                        "name": "pas:entityUnit"
+                                                        "name": "pas:entityUnit",
+                                                        "formatter": "",
+                                                        "setAttributesManually": false
                                                     },
                                                     {
-                                                        "name": "pas:total"
+                                                        "name": "pas:total",
+                                                        "formatter": "",
+                                                        "setAttributesManually": false
                                                     },
                                                     {
-                                                        "name": "pas:type"
+                                                        "name": "pas:type",
+                                                        "formatter": "",
+                                                        "setAttributesManually": false
                                                     },
                                                     {
-                                                        "name": "pas:currency"
+                                                        "name": "pas:currency",
+                                                        "formatter": "",
+                                                        "setAttributesManually": false
                                                     }
                                                 ],
                                                 "createVariants": [],
                                                 "record": null,
                                                 "attribute": null
-                                            },
-                                            "type": "custom"
+                                            }
                                         },
-                                        "type": "tableForm",
-                                        "eventName": "routeTableUpdate",
-                                        "customConditional": "show = ((instance.options.formMode !== 'CREATE' && data.pas_containsProductsAndServices.length > 0) || data.dms_updateContent) ? true : false;",
-                                        "clearOnHide": false,
-                                        "tags": [],
-                                        "displayColumnsAsyncData": [],
-                                        "input": true,
-                                        "alwaysEnabled": false,
-                                        "reorder": false,
                                         "triggerEventOnChange": true,
-                                        "key": "pas_containsProductsAndServices",
-                                        "mask": false,
+                                        "computed": {
+                                            "valueFormKey": ""
+                                        },
+                                        "defaultValue": [],
+                                        "encrypted": false,
+                                        "displayColumnsAsyncData": [],
                                         "validate": {
+                                            "required": true,
                                             "customMessage": "",
                                             "json": "",
-                                            "required": true,
                                             "custom": "",
                                             "customPrivate": false
                                         },
-                                        "multiple": true,
-                                        "tableView": true,
-                                        "label": "pas:containsProductsAndServices",
-                                        "encrypted": false,
-                                        "attributes": {},
+                                        "key": "pas_containsProductsAndServices",
+                                        "properties": {
+                                            "attribute": "pas:containsProductsAndServices"
+                                        },
+                                        "conditional": {
+                                            "show": "",
+                                            "when": "",
+                                            "json": "",
+                                            "eq": ""
+                                        },
+                                        "customConditional": "show = ((instance.options.formMode !== 'CREATE' && data.pas_containsProductsAndServices.length > 0) || data.dms_updateContent) ? true : false;",
                                         "logic": [
                                             {
                                                 "name": "required_off",
@@ -4042,20 +4071,22 @@
                                                 "actions": [
                                                     {
                                                         "name": "disabled_on",
+                                                        "type": "property",
                                                         "property": {
                                                             "label": "Disabled",
-                                                            "type": "boolean",
-                                                            "value": "disabled"
+                                                            "value": "disabled",
+                                                            "type": "boolean"
                                                         },
-                                                        "state": "true",
-                                                        "type": "property"
+                                                        "state": "true"
                                                     }
                                                 ]
                                             }
                                         ],
-                                        "properties": {
-                                            "attribute": "pas:containsProductsAndServices"
-                                        },
+                                        "attributes": {},
+                                        "type": "tableForm",
+                                        "_journalId": "alf_term:teReqRoute",
+                                        "tags": [],
+                                        "input": true,
                                         "placeholder": "",
                                         "prefix": "",
                                         "customClass": "",
@@ -4083,16 +4114,14 @@
                                         "refreshOn": "",
                                         "clearOnRefresh": false,
                                         "validateOn": "change",
-                                        "computed": {
-                                            "valueFormKey": null
-                                        },
                                         "customCreateVariantsJs": "",
                                         "isStaticModalTitle": false,
                                         "customStringForConcatWithStaticTitle": "",
                                         "isSelectableRows": false,
                                         "displayElementsJS": "",
                                         "nonSelectableRowsJS": "",
-                                        "id": "eu7ccg"
+                                        "selectedRowsJS": "",
+                                        "id": "edhkixvk"
                                     }
                                 ],
                                 "classes": "",
@@ -4145,7 +4174,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "eq0d2s"
+                                "id": "elxsxj"
                             },
                             {
                                 "type": "column",
@@ -4206,7 +4235,7 @@
                                     "when": null,
                                     "eq": ""
                                 },
-                                "id": "ejze51f"
+                                "id": "elw9o45"
                             }
                         ],
                         "key": "columns30",
@@ -4254,7 +4283,7 @@
                         "inlineColumns": false,
                         "autoAdjust": false,
                         "hideOnChildrenHidden": false,
-                        "id": "e7bmnp"
+                        "id": "ezo4cmm"
                     },
                     {
                         "conditional": {
@@ -4334,7 +4363,7 @@
                         "inputMask": "",
                         "wysiwyg": false,
                         "editor": "",
-                        "id": "e3pc48i"
+                        "id": "eodzt4q"
                     }
                 ],
                 "title": "Other",
@@ -4383,7 +4412,7 @@
                 "theme": "default",
                 "breadcrumb": "default",
                 "lazyLoad": false,
-                "id": "eor8tiwh"
+                "id": "ewzob8a"
             },
             {
                 "hidden": true,
@@ -4443,7 +4472,7 @@
                 "clearOnRefresh": false,
                 "validateOn": "change",
                 "inputType": "hidden",
-                "id": "emfks6q"
+                "id": "ef3whqz"
             },
             {
                 "conditional": {
@@ -4508,7 +4537,7 @@
                 "inputType": "checkbox",
                 "value": "",
                 "name": "",
-                "id": "e006kw"
+                "id": "e47mek7"
             },
             {
                 "refreshOn": [],
@@ -4608,7 +4637,7 @@
                 "mask": false,
                 "inputType": "asyncData",
                 "executionCondition": "",
-                "id": "ecf3f5"
+                "id": "exfb4c"
             },
             {
                 "refreshOn": [],
@@ -4700,7 +4729,7 @@
                 "mask": false,
                 "inputType": "asyncData",
                 "executionCondition": "",
-                "id": "egg37os"
+                "id": "ei47mgy"
             },
             {
                 "refreshOn": [
@@ -4799,7 +4828,7 @@
                 "inputType": "asyncData",
                 "eventName": "",
                 "executionCondition": "",
-                "id": "exkaz5m"
+                "id": "eratngq"
             },
             {
                 "refreshOn": [],
@@ -4893,7 +4922,7 @@
                 "inputType": "asyncData",
                 "eventName": "",
                 "executionCondition": "",
-                "id": "e2cwydn"
+                "id": "emiyoeh"
             },
             {
                 "refreshOn": "",
@@ -4985,7 +5014,7 @@
                 "mask": false,
                 "inputType": "asyncData",
                 "executionCondition": "",
-                "id": "e7yvm1b"
+                "id": "ecusepq"
             },
             {
                 "refreshOn": [],
@@ -5078,7 +5107,7 @@
                 "mask": false,
                 "inputType": "asyncData",
                 "executionCondition": "",
-                "id": "eoyshij"
+                "id": "e86u67"
             },
             {
                 "refreshOn": [],
@@ -5170,7 +5199,7 @@
                 "inputType": "asyncData",
                 "eventName": "",
                 "executionCondition": "",
-                "id": "eabff0r"
+                "id": "e71dv7f"
             },
             {
                 "conditional": {
@@ -5262,7 +5291,7 @@
                                 "rightIcon": "",
                                 "disableOnInvalid": false,
                                 "theme": "default",
-                                "id": "ercvc2"
+                                "id": "e2yt96n"
                             }
                         ],
                         "classes": "",
@@ -5315,7 +5344,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "exitmml"
+                        "id": "e3rrhup"
                     },
                     {
                         "type": "column",
@@ -5376,7 +5405,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "eboboz"
+                        "id": "el1whn8"
                     },
                     {
                         "components": [
@@ -5447,7 +5476,7 @@
                                 "rightIcon": "",
                                 "action": "submit",
                                 "theme": "default",
-                                "id": "e6sxxid"
+                                "id": "ebz8zp"
                             }
                         ],
                         "classes": "",
@@ -5503,7 +5532,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "efuvik"
+                        "id": "e7h57ut"
                     },
                     {
                         "components": [
@@ -5594,7 +5623,7 @@
                                 "rightIcon": "",
                                 "action": "submit",
                                 "disableOnInvalid": false,
-                                "id": "ecej77p"
+                                "id": "ej1pxkj"
                             }
                         ],
                         "classes": "",
@@ -5650,7 +5679,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e5qvcua6"
+                        "id": "e07tg3l"
                     }
                 ],
                 "key": "columns22",
@@ -5698,7 +5727,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "e9lrmn2"
+                "id": "e0ar03l"
             }
         ],
         "display": "form"
