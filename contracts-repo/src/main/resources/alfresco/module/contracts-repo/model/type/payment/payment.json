@@ -6,13 +6,19 @@
     "associations": [
         {
             "id": "contracts:closingDocumentPayment",
-            "name": "Закрывающий документ",
+            "name": {
+                "ru": "Учетные документы",
+                "en": "Accounting Documents"
+            },
             "direction": "SOURCE",
             "target": "emodel/type@user-base"
         },
         {
             "id": "payments:basis",
-            "name": "Документ-основание",
+            "name": {
+                "ru": "Документ-основание",
+                "en": "Document-base"
+            },
             "direction": "TARGET",
             "target": "emodel/type@user-base"
         }
