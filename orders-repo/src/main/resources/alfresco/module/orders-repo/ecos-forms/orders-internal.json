@@ -114,7 +114,7 @@
                                 "fuseOptions": {},
                                 "customOptions": {},
                                 "refreshEventName": "",
-                                "id": "e0qknyr"
+                                "id": "evryyda"
                             }
                         ],
                         "xs": 0,
@@ -170,7 +170,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "erpr35u"
+                        "id": "eutjibt"
                     },
                     {
                         "xs": 0,
@@ -370,7 +370,7 @@
                                     "mousewheel": true,
                                     "arrowkeys": true
                                 },
-                                "id": "en3cuj2"
+                                "id": "ejs7sl"
                             }
                         ],
                         "placeholder": "",
@@ -413,7 +413,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "eokm61r"
+                        "id": "e22ypao"
                     }
                 ],
                 "mask": false,
@@ -471,7 +471,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "emm3ano"
+                "id": "endpcis"
             },
             {
                 "label": "Columns",
@@ -547,7 +547,7 @@
                                 "excludeAuthoritiesByType": "",
                                 "modalTitle": "",
                                 "isSelectedValueAsText": false,
-                                "id": "efln4pn"
+                                "id": "eh1x38m"
                             }
                         ],
                         "xs": 0,
@@ -603,7 +603,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ex3ebcj"
+                        "id": "eupdwkf"
                     },
                     {
                         "xs": 0,
@@ -689,7 +689,7 @@
                                 "excludeAuthoritiesByType": "",
                                 "modalTitle": "",
                                 "isSelectedValueAsText": false,
-                                "id": "eig18u"
+                                "id": "e16v69f"
                             }
                         ],
                         "placeholder": "",
@@ -732,7 +732,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "engr80h"
+                        "id": "ezl7x9n"
                     }
                 ],
                 "mask": false,
@@ -790,7 +790,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "e9rqmn"
+                "id": "epcktk7"
             },
             {
                 "label": "Columns",
@@ -804,7 +804,7 @@
                                 "alwaysEnabled": false,
                                 "hideTabSwitcher": false,
                                 "defaultTab": "TAB_BY_LEVELS",
-                                "allowedAuthorityType": "USER",
+                                "allowedAuthorityType": "GROUP",
                                 "defaultValue": "",
                                 "encrypted": false,
                                 "validate": {
@@ -866,7 +866,7 @@
                                 "excludeAuthoritiesByType": "",
                                 "modalTitle": "",
                                 "isSelectedValueAsText": false,
-                                "id": "eczlm1"
+                                "id": "evpjtyb"
                             }
                         ],
                         "xs": 0,
@@ -922,7 +922,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ez9hiia"
+                        "id": "e2ofuh8"
                     },
                     {
                         "xs": 0,
@@ -1017,7 +1017,7 @@
                                 "isSelectedValueAsText": false,
                                 "sortAttribute": "sys:node-dbid",
                                 "sortAscending": "asc",
-                                "id": "ex0x3rb"
+                                "id": "eh7lj6g"
                             }
                         ],
                         "placeholder": "",
@@ -1060,7 +1060,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "emz3rt"
+                        "id": "eun4x7r"
                     }
                 ],
                 "mask": false,
@@ -1118,7 +1118,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "e26qw4j"
+                "id": "e4q19d"
             },
             {
                 "label": "Columns",
@@ -1200,7 +1200,7 @@
                                 "mask": false,
                                 "inputType": "text",
                                 "inputMask": "",
-                                "id": "e0uqr79"
+                                "id": "edi2wx"
                             }
                         ],
                         "xs": 0,
@@ -1256,7 +1256,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e1xe9bk"
+                        "id": "ebxhk26"
                     },
                     {
                         "xs": 0,
@@ -1348,7 +1348,7 @@
                                 "mask": false,
                                 "inputType": "text",
                                 "inputMask": "",
-                                "id": "e4bfk9t"
+                                "id": "em6bww5"
                             }
                         ],
                         "placeholder": "",
@@ -1391,7 +1391,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "eoxjrr"
+                        "id": "ep9rjhj"
                     }
                 ],
                 "mask": false,
@@ -1449,7 +1449,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "ee60o6w"
+                "id": "euv08ol"
             },
             {
                 "label": "idocs:summary",
@@ -1529,7 +1529,7 @@
                 "inputMask": "",
                 "wysiwyg": false,
                 "editor": "",
-                "id": "e4pzejn"
+                "id": "erauwoi"
             },
             {
                 "label": "orders:scanRequired",
@@ -1594,7 +1594,7 @@
                 "inputType": "checkbox",
                 "value": "",
                 "name": "",
-                "id": "esh2f7q"
+                "id": "end3km9"
             },
             {
                 "label": "dms:updateContent",
@@ -1659,7 +1659,7 @@
                 "inputType": "checkbox",
                 "value": "",
                 "name": "",
-                "id": "e9z6zhk"
+                "id": "e40wth"
             },
             {
                 "label": "cm:content",
@@ -1743,7 +1743,7 @@
                 "defaultOverlayWidth": 200,
                 "defaultOverlayHeight": 200,
                 "displayElementsJS": {},
-                "id": "ex19uwd"
+                "id": "eoht24"
             },
             {
                 "label": "Columns",
@@ -1819,7 +1819,7 @@
                                 "disableOnInvalid": false,
                                 "theme": "default",
                                 "removeIndents": false,
-                                "id": "ej94rwf"
+                                "id": "e51sm48"
                             }
                         ],
                         "xs": 0,
@@ -1875,7 +1875,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ez9bsw4"
+                        "id": "en6ls3l"
                     },
                     {
                         "xs": 0,
@@ -1959,7 +1959,7 @@
                                 "disableOnInvalid": false,
                                 "theme": "default",
                                 "removeIndents": false,
-                                "id": "e9ocly5"
+                                "id": "egxdxna"
                             }
                         ],
                         "placeholder": "",
@@ -2002,7 +2002,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e80cj79"
+                        "id": "e04w9y"
                     },
                     {
                         "xs": 0,
@@ -2059,7 +2059,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e6g60f"
+                        "id": "exedypi"
                     },
                     {
                         "xs": 0,
@@ -2143,7 +2143,7 @@
                                 "rightIcon": "",
                                 "action": "submit",
                                 "removeIndents": false,
-                                "id": "eddqb2"
+                                "id": "e5k23t9"
                             }
                         ],
                         "placeholder": "",
@@ -2186,7 +2186,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "eytflr"
+                        "id": "eplsf1"
                     }
                 ],
                 "mask": false,
@@ -2244,7 +2244,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "exo0lcw"
+                "id": "e9jre1j"
             },
             {
                 "label": "subCategories",
@@ -2338,7 +2338,7 @@
                 "eventName": "",
                 "executionCondition": "",
                 "ignoreValuesEqualityChecking": false,
-                "id": "ekmxvz"
+                "id": "e0asxki"
             }
         ]
     },
