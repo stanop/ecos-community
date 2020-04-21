@@ -9,7 +9,10 @@
     "associations": [
         {
             "id": "contracts:mainAgreement",
-            "name": "Relationship to the contract",
+            "name": {
+                "ru": "Связь с договором",
+                "en": "Relationship to the contract"
+            },
             "direction": "TARGET",
             "target": "emodel/type@user-base"
         }

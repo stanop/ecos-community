@@ -6,13 +6,19 @@
     "associations": [
         {
             "id": "contracts:closingDocumentAgreement",
-            "name": "Договор",
+            "name": {
+                "ru": "Документ-основание",
+                "en": "Document-base"
+            },
             "direction": "TARGET",
             "target": "emodel/type@user-base"
         },
         {
             "id": "contracts:closingDocumentPayment",
-            "name": "Платеж",
+            "name": {
+                "ru": "Связанные счета",
+                "en": "Associated payments"
+            },
             "direction": "TARGET",
             "target": "emodel/type@user-base"
         }
