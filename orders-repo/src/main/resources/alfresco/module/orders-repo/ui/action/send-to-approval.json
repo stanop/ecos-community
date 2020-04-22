@@ -1,0 +1,27 @@
+{
+    "id": "send-to-approval",
+    "name": {
+        "ru": "Отправить на согласование",
+        "en": "Send to approval"
+    },
+    "type": "open-url",
+    "key": "send.to.approval",
+    "icon": null,
+    "typeRef": null,
+    "config": {
+        "recordRef": "",
+        "url": "/share/page/start-specified-workflow?packageItems=${recordRef}&workflowId=activiti$confirm"
+    },
+    "evaluator": {
+        "type": "predicate",
+        "config": {
+            "predicate": {
+                "t": "in",
+                "att": "icase:caseStatusAssoc.cm:name",
+                "val": [
+                    "draft"
+                ]
+            }
+        }
+    }
+}
