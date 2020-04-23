@@ -2,11 +2,27 @@
 <!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
 <beans>
 
+    <bean id="ecos-letters.application.income.EnumerationBehaviour" parent="ClassifiedEnumerationBehaviour">
+        <property name="className" value="letters:income"/>
+        <property name="numberField" value="idocs:registrationNumber"/>
+        <property name="type" value="workspace://SpacesStore/letter-doctype-income"/>
+        <property name="templateName" value="idocs-income-number-template"/>
+    </bean>
+
+    <bean id="ecos-letters.application.outcome.EnumerationBehaviour" parent="ClassifiedEnumerationBehaviour">
+        <property name="className" value="letters:outcome"/>
+        <property name="numberField" value="idocs:registrationNumber"/>
+        <property name="type" value="workspace://SpacesStore/letter-doctype-outcome"/>
+        <property name="templateName" value="idocs-outcome-number-template"/>
+    </bean>
+
     <bean id="idocs.IncomeNamingBehaviour" parent="AutoNameBehaviour">
         <property name="className" value="letters:income"/>
         <property name="nameTemplate">
             <value><![CDATA[<#if .locale == "ru_RU">Входящий №#{'$'}{node.properties['idocs:registrationNumber']!'б-н'}<#else>Incoming №#{'$'}{node.properties['idocs:registrationNumber']!'n/a'}</#if>]]></value>
         </property>
+        <property name="appendExtension" value="false"/>
+        <property name="order" value="40"/>
     </bean>
 
     <bean id="idocs.IncomeTitleBehaviour" parent="TitleGenerationBehaviour">
@@ -28,6 +44,8 @@
         <property name="nameTemplate">
             <value><![CDATA[<#if .locale == "ru_RU">Исходящий №#{'$'}{node.properties['idocs:registrationNumber']!'б-н'}<#else>Outgoing №#{'$'}{node.properties['idocs:registrationNumber']!'n/a'}</#if>]]></value>
         </property>
+        <property name="appendExtension" value="false"/>
+        <property name="order" value="40"/>
     </bean>
 
     <bean id="idocs.OutcomeTitleBehaviour" parent="TitleGenerationBehaviour">
