@@ -1,6 +1,30 @@
 {
     "id": "letter-doctype-income",
-    "name": "Входящие",
+    "name": {
+        "en": "Входящие"
+    },
+    "description": {
+        "en": ""
+    },
     "parent": "emodel/type@user-base",
-    "inheritActions": true
+    "form": "",
+    "journal": "",
+    "system": false,
+    "dashboardType": null,
+    "inheritActions": true,
+    "aliases": [],
+    "actions": [
+        "ui/action@create-outcome",
+        "ui/action@create-perform",
+        "ui/action@send-income-to-approval",
+        "ui/action@upload-new-version",
+        "ui/action@print-pdf",
+        "ui/action@edit-in-onlyoffice",
+        "ui/action@content-download",
+        "ui/action@delete",
+        "ui/action@edit"
+    ],
+    "associations": [],
+    "createVariants": [],
+    "attributes": {}
 }
