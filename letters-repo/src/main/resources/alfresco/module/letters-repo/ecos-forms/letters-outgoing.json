@@ -136,7 +136,7 @@
                                 "fuseOptions": {},
                                 "customOptions": {},
                                 "refreshEventName": "",
-                                "id": "etcr1on"
+                                "id": "e6nopuq"
                             }
                         ],
                         "xs": 0,
@@ -192,7 +192,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "emkhrsp"
+                        "id": "env79jm"
                     },
                     {
                         "xs": 0,
@@ -321,7 +321,7 @@
                                 "fuseOptions": {},
                                 "customOptions": {},
                                 "refreshEventName": "",
-                                "id": "e9novd"
+                                "id": "ec379ea"
                             }
                         ],
                         "placeholder": "",
@@ -364,7 +364,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "euzz2t"
+                        "id": "exrpxw"
                     }
                 ],
                 "mask": false,
@@ -422,7 +422,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "ekqq2hk"
+                "id": "e0y1tk"
             },
             {
                 "label": "Columns",
@@ -592,7 +592,7 @@
                                 "isSelectedValueAsText": false,
                                 "sortAttribute": "sys:node-dbid",
                                 "sortAscending": "asc",
-                                "id": "e76jsn"
+                                "id": "ermyxzq"
                             }
                         ],
                         "xs": 0,
@@ -648,7 +648,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e2f4saj"
+                        "id": "eak6waf"
                     },
                     {
                         "xs": 0,
@@ -756,7 +756,7 @@
                                 "isSelectedValueAsText": false,
                                 "sortAttribute": "sys:node-dbid",
                                 "sortAscending": "asc",
-                                "id": "em44djm"
+                                "id": "e0exsnr"
                             }
                         ],
                         "placeholder": "",
@@ -799,7 +799,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "egp4ovj"
+                        "id": "e4mt0jo"
                     }
                 ],
                 "mask": false,
@@ -857,7 +857,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "e2am06k"
+                "id": "ekeudjg"
             },
             {
                 "label": "Columns",
@@ -871,6 +871,8 @@
                                 "alwaysEnabled": false,
                                 "hideTabSwitcher": false,
                                 "defaultTab": "TAB_BY_LEVELS",
+                                "allowedAuthorityType": "USER",
+                                "defaultValue": "",
                                 "encrypted": false,
                                 "validate": {
                                     "customMessage": "",
@@ -884,9 +886,9 @@
                                     "attribute": "idocs:performer"
                                 },
                                 "conditional": {
-                                    "json": "",
                                     "show": "",
                                     "when": "",
+                                    "json": "",
                                     "eq": ""
                                 },
                                 "customConditional": "",
@@ -895,7 +897,6 @@
                                 "type": "selectOrgstruct",
                                 "input": true,
                                 "tags": [],
-                                "defaultValue": "",
                                 "placeholder": "",
                                 "prefix": "",
                                 "customClass": "",
@@ -925,7 +926,6 @@
                                 "refreshOn": "",
                                 "clearOnRefresh": false,
                                 "validateOn": "change",
-                                "allowedAuthorityType": "USER, GROUP",
                                 "allowedGroupType": "ROLE, BRANCH",
                                 "allowedGroupSubType": "",
                                 "currentUserByDefault": false,
@@ -933,7 +933,7 @@
                                 "excludeAuthoritiesByType": "",
                                 "modalTitle": "",
                                 "isSelectedValueAsText": false,
-                                "id": "eudkpf"
+                                "id": "ej351tg"
                             }
                         ],
                         "xs": 0,
@@ -989,7 +989,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e51qy5c"
+                        "id": "ecd96qv"
                     },
                     {
                         "xs": 0,
@@ -1013,6 +1013,8 @@
                                 "alwaysEnabled": false,
                                 "hideTabSwitcher": false,
                                 "defaultTab": "TAB_BY_LEVELS",
+                                "allowedAuthorityType": "USER",
+                                "defaultValue": "",
                                 "encrypted": false,
                                 "validate": {
                                     "customMessage": "",
@@ -1026,9 +1028,9 @@
                                     "attribute": "idocs:signatory"
                                 },
                                 "conditional": {
-                                    "json": "",
                                     "show": "",
                                     "when": "",
+                                    "json": "",
                                     "eq": ""
                                 },
                                 "customConditional": "",
@@ -1037,7 +1039,6 @@
                                 "type": "selectOrgstruct",
                                 "input": true,
                                 "tags": [],
-                                "defaultValue": "",
                                 "placeholder": "",
                                 "prefix": "",
                                 "customClass": "",
@@ -1067,7 +1068,6 @@
                                 "refreshOn": "",
                                 "clearOnRefresh": false,
                                 "validateOn": "change",
-                                "allowedAuthorityType": "USER, GROUP",
                                 "allowedGroupType": "ROLE, BRANCH",
                                 "allowedGroupSubType": "",
                                 "currentUserByDefault": false,
@@ -1075,7 +1075,7 @@
                                 "excludeAuthoritiesByType": "",
                                 "modalTitle": "",
                                 "isSelectedValueAsText": false,
-                                "id": "e6wzinc"
+                                "id": "esk5sye6"
                             }
                         ],
                         "placeholder": "",
@@ -1118,7 +1118,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e9hb1yj"
+                        "id": "eu6fqe2"
                     }
                 ],
                 "mask": false,
@@ -1176,7 +1176,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "ebym3f"
+                "id": "e2m6p2"
             },
             {
                 "label": "Columns",
@@ -1306,7 +1306,7 @@
                                 "isSelectedValueAsText": false,
                                 "sortAttribute": "sys:node-dbid",
                                 "sortAscending": "asc",
-                                "id": "e7gxiw"
+                                "id": "ey88cfqi"
                             }
                         ],
                         "xs": 0,
@@ -1362,7 +1362,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ei8650d"
+                        "id": "ewweui6"
                     },
                     {
                         "xs": 0,
@@ -1457,7 +1457,7 @@
                                 "isSelectedValueAsText": false,
                                 "sortAttribute": "sys:node-dbid",
                                 "sortAscending": "asc",
-                                "id": "evjqfx"
+                                "id": "emmpsrf"
                             }
                         ],
                         "placeholder": "",
@@ -1500,7 +1500,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "eno63v3"
+                        "id": "eqpi8f6"
                     }
                 ],
                 "mask": false,
@@ -1558,7 +1558,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "e5ofarcz"
+                "id": "e2i69"
             },
             {
                 "label": "Columns",
@@ -1643,7 +1643,7 @@
                                 "inputMask": "",
                                 "wysiwyg": false,
                                 "editor": "",
-                                "id": "eqeo5did"
+                                "id": "e9livi8"
                             }
                         ],
                         "xs": 0,
@@ -1699,7 +1699,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e7jnqi"
+                        "id": "e2rmbso"
                     },
                     {
                         "xs": 0,
@@ -1794,7 +1794,7 @@
                                 "inputMask": "",
                                 "wysiwyg": false,
                                 "editor": "",
-                                "id": "esgzmnb"
+                                "id": "ei0yw3b"
                             }
                         ],
                         "placeholder": "",
@@ -1837,7 +1837,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "eitbxfb"
+                        "id": "edzpslg"
                     }
                 ],
                 "mask": false,
@@ -1895,7 +1895,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "eqio6y"
+                "id": "eshzsk"
             },
             {
                 "label": "Columns",
@@ -1968,7 +1968,7 @@
                                 "refreshOn": "",
                                 "clearOnRefresh": false,
                                 "validateOn": "change",
-                                "id": "e65tojh"
+                                "id": "e7ouglj"
                             }
                         ],
                         "xs": 0,
@@ -2024,7 +2024,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ecswpgi"
+                        "id": "enpnhi"
                     },
                     {
                         "xs": 0,
@@ -2107,7 +2107,7 @@
                                 "refreshOn": "",
                                 "clearOnRefresh": false,
                                 "validateOn": "change",
-                                "id": "eo5qnde"
+                                "id": "eg6s9wpr"
                             }
                         ],
                         "placeholder": "",
@@ -2150,7 +2150,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ee4ga3"
+                        "id": "e1g5pcd"
                     }
                 ],
                 "mask": false,
@@ -2208,7 +2208,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "eqqs5sk"
+                "id": "e2sv1z"
             },
             {
                 "label": "cm:content",
@@ -2293,7 +2293,7 @@
                 "defaultOverlayHeight": 200,
                 "displayElementsJS": {},
                 "valueDisplayName": {},
-                "id": "e69fnpf"
+                "id": "ep6uil5m"
             },
             {
                 "label": "inner:form",
@@ -2370,7 +2370,7 @@
                 "mask": false,
                 "inputType": "text",
                 "inputMask": "",
-                "id": "eff4px"
+                "id": "eiwhee"
             },
             {
                 "label": "subCategories",
@@ -2462,7 +2462,7 @@
                 "eventName": "",
                 "executionCondition": "",
                 "ignoreValuesEqualityChecking": false,
-                "id": "e7quasd"
+                "id": "e0c8vs"
             },
             {
                 "label": "Columns",
@@ -2538,7 +2538,7 @@
                                 "disableOnInvalid": false,
                                 "theme": "default",
                                 "removeIndents": false,
-                                "id": "e4ffbpe"
+                                "id": "ef2nfg8"
                             }
                         ],
                         "xs": 0,
@@ -2594,7 +2594,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ehg0tre"
+                        "id": "ebg5hs"
                     },
                     {
                         "xs": 0,
@@ -2651,7 +2651,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ea8nvu9"
+                        "id": "ecuja6v"
                     },
                     {
                         "xs": 0,
@@ -2708,7 +2708,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ee434d7"
+                        "id": "e5xbigw"
                     },
                     {
                         "xs": 0,
@@ -2792,7 +2792,7 @@
                                 "rightIcon": "",
                                 "action": "submit",
                                 "removeIndents": false,
-                                "id": "eqrpujj"
+                                "id": "e5pks3d"
                             }
                         ],
                         "placeholder": "",
@@ -2835,7 +2835,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "epbhpd"
+                        "id": "ed752gd"
                     }
                 ],
                 "mask": false,
@@ -2893,7 +2893,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "e9afg7g"
+                "id": "ehrook6"
             }
         ]
     },
