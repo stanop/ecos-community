@@ -24,8 +24,7 @@
             "Registered letter with notification": "Заказное письмо с уведомлением",
             "Huntsman courier": "Фельдсвязь",
             "Cancel": "Отменить",
-            "Save": "Сохранить",
-            "Submit": "Создать"
+            "Submit": "Сохранить"
         },
         "en": {
             "Accounting": "Accounting",
@@ -40,8 +39,7 @@
             "Registered letter with notification": "Registered letter with notification",
             "Huntsman courier": "Huntsman courier",
             "Cancel": "Cancel",
-            "Save": "Save",
-            "Submit": "Submit"
+            "Submit": "Save"
         }
     },
     "definition": {
