@@ -24,7 +24,8 @@
             "Registered letter with notification": "Заказное письмо с уведомлением",
             "Huntsman courier": "Фельдсвязь",
             "Cancel": "Отменить",
-            "Submit": "Сохранить"
+            "Save": "Сохранить",
+            "Create": "Создать"
         },
         "en": {
             "Accounting": "Accounting",
@@ -39,7 +40,8 @@
             "Registered letter with notification": "Registered letter with notification",
             "Huntsman courier": "Huntsman courier",
             "Cancel": "Cancel",
-            "Submit": "Save"
+            "Save": "Save",
+            "Create": "Create"
         }
     },
     "definition": {
@@ -134,7 +136,7 @@
                                 "fuseOptions": {},
                                 "customOptions": {},
                                 "refreshEventName": "",
-                                "id": "e6nopuq"
+                                "id": "es48qma"
                             }
                         ],
                         "xs": 0,
@@ -190,7 +192,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "env79jm"
+                        "id": "eglfwj"
                     },
                     {
                         "xs": 0,
@@ -319,7 +321,7 @@
                                 "fuseOptions": {},
                                 "customOptions": {},
                                 "refreshEventName": "",
-                                "id": "ec379ea"
+                                "id": "eea7m54c"
                             }
                         ],
                         "placeholder": "",
@@ -362,7 +364,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "exrpxw"
+                        "id": "e96yb1"
                     }
                 ],
                 "mask": false,
@@ -420,7 +422,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "e0y1tk"
+                "id": "eysydm"
             },
             {
                 "label": "Columns",
@@ -590,7 +592,7 @@
                                 "isSelectedValueAsText": false,
                                 "sortAttribute": "sys:node-dbid",
                                 "sortAscending": "asc",
-                                "id": "ermyxzq"
+                                "id": "e517cvw"
                             }
                         ],
                         "xs": 0,
@@ -646,7 +648,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "eak6waf"
+                        "id": "eebj9ub"
                     },
                     {
                         "xs": 0,
@@ -754,7 +756,7 @@
                                 "isSelectedValueAsText": false,
                                 "sortAttribute": "sys:node-dbid",
                                 "sortAscending": "asc",
-                                "id": "e0exsnr"
+                                "id": "e0fvuif"
                             }
                         ],
                         "placeholder": "",
@@ -797,7 +799,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e4mt0jo"
+                        "id": "epc4n4"
                     }
                 ],
                 "mask": false,
@@ -855,7 +857,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "ekeudjg"
+                "id": "eql9el"
             },
             {
                 "label": "Columns",
@@ -931,7 +933,7 @@
                                 "excludeAuthoritiesByType": "",
                                 "modalTitle": "",
                                 "isSelectedValueAsText": false,
-                                "id": "ej351tg"
+                                "id": "e9cid6i"
                             }
                         ],
                         "xs": 0,
@@ -987,7 +989,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ecd96qv"
+                        "id": "el9nv2d"
                     },
                     {
                         "xs": 0,
@@ -1073,7 +1075,7 @@
                                 "excludeAuthoritiesByType": "",
                                 "modalTitle": "",
                                 "isSelectedValueAsText": false,
-                                "id": "esk5sye6"
+                                "id": "etk15f"
                             }
                         ],
                         "placeholder": "",
@@ -1116,7 +1118,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "eu6fqe2"
+                        "id": "eow9jsd"
                     }
                 ],
                 "mask": false,
@@ -1174,7 +1176,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "e2m6p2"
+                "id": "eg9lslr"
             },
             {
                 "label": "Columns",
@@ -1304,7 +1306,7 @@
                                 "isSelectedValueAsText": false,
                                 "sortAttribute": "sys:node-dbid",
                                 "sortAscending": "asc",
-                                "id": "ey88cfqi"
+                                "id": "e7foqlk"
                             }
                         ],
                         "xs": 0,
@@ -1360,7 +1362,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ewweui6"
+                        "id": "ewcpzeh"
                     },
                     {
                         "xs": 0,
@@ -1455,7 +1457,7 @@
                                 "isSelectedValueAsText": false,
                                 "sortAttribute": "sys:node-dbid",
                                 "sortAscending": "asc",
-                                "id": "emmpsrf"
+                                "id": "er7ou3w"
                             }
                         ],
                         "placeholder": "",
@@ -1498,7 +1500,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "eqpi8f6"
+                        "id": "e9g2uc8"
                     }
                 ],
                 "mask": false,
@@ -1556,7 +1558,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "e2i69"
+                "id": "eq7u5c6"
             },
             {
                 "label": "Columns",
@@ -1641,7 +1643,7 @@
                                 "inputMask": "",
                                 "wysiwyg": false,
                                 "editor": "",
-                                "id": "e9livi8"
+                                "id": "e7fjdxr"
                             }
                         ],
                         "xs": 0,
@@ -1697,7 +1699,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e2rmbso"
+                        "id": "en2vij7"
                     },
                     {
                         "xs": 0,
@@ -1792,7 +1794,7 @@
                                 "inputMask": "",
                                 "wysiwyg": false,
                                 "editor": "",
-                                "id": "ei0yw3b"
+                                "id": "e0wca3c"
                             }
                         ],
                         "placeholder": "",
@@ -1835,7 +1837,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "edzpslg"
+                        "id": "euquvsj"
                     }
                 ],
                 "mask": false,
@@ -1893,7 +1895,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "eshzsk"
+                "id": "esidl6"
             },
             {
                 "label": "Columns",
@@ -1966,7 +1968,7 @@
                                 "refreshOn": "",
                                 "clearOnRefresh": false,
                                 "validateOn": "change",
-                                "id": "e7ouglj"
+                                "id": "etwute"
                             }
                         ],
                         "xs": 0,
@@ -2022,7 +2024,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "enpnhi"
+                        "id": "el53e9h"
                     },
                     {
                         "xs": 0,
@@ -2105,7 +2107,7 @@
                                 "refreshOn": "",
                                 "clearOnRefresh": false,
                                 "validateOn": "change",
-                                "id": "eg6s9wpr"
+                                "id": "ecdkwlg"
                             }
                         ],
                         "placeholder": "",
@@ -2148,7 +2150,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e1g5pcd"
+                        "id": "ejq7guk"
                     }
                 ],
                 "mask": false,
@@ -2206,7 +2208,7 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "e2sv1z"
+                "id": "ejp05k7"
             },
             {
                 "label": "cm:content",
@@ -2291,7 +2293,7 @@
                 "defaultOverlayHeight": 200,
                 "displayElementsJS": {},
                 "valueDisplayName": {},
-                "id": "ep6uil5m"
+                "id": "ep6xd7w"
             },
             {
                 "label": "inner:form",
@@ -2368,7 +2370,7 @@
                 "mask": false,
                 "inputType": "text",
                 "inputMask": "",
-                "id": "eiwhee"
+                "id": "eny24rd"
             },
             {
                 "label": "subCategories",
@@ -2381,6 +2383,7 @@
                         "query": "var query = 'PARENT:\"workspace://SpacesStore/letter-doctype-outcome\"';\nvar value = {\n  query: query,\n  language: 'fts-alfresco'\n}",
                         "isSingle": false
                     },
+                    "forceLoad": false,
                     "ajax": {
                         "method": "GET",
                         "url": "",
@@ -2460,7 +2463,7 @@
                 "eventName": "",
                 "executionCondition": "",
                 "ignoreValuesEqualityChecking": false,
-                "id": "e0c8vs"
+                "id": "ei0n9n"
             },
             {
                 "label": "Columns",
@@ -2536,7 +2539,7 @@
                                 "disableOnInvalid": false,
                                 "theme": "default",
                                 "removeIndents": false,
-                                "id": "ef2nfg8"
+                                "id": "ecr7gvt"
                             }
                         ],
                         "xs": 0,
@@ -2592,7 +2595,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ebg5hs"
+                        "id": "e6w0y7g"
                     },
                     {
                         "xs": 0,
@@ -2649,7 +2652,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ecuja6v"
+                        "id": "e7e04kn"
                     },
                     {
                         "xs": 0,
@@ -2706,7 +2709,7 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "e5xbigw"
+                        "id": "eikc0z6"
                     },
                     {
                         "xs": 0,
@@ -2724,7 +2727,7 @@
                         "index": 3,
                         "components": [
                             {
-                                "label": "Submit",
+                                "label": "Save",
                                 "state": "",
                                 "theme": "primary",
                                 "shortcut": "",
@@ -2744,9 +2747,9 @@
                                 "key": "submit",
                                 "properties": {},
                                 "conditional": {
-                                    "json": "",
                                     "show": "",
                                     "when": "",
+                                    "json": "",
                                     "eq": ""
                                 },
                                 "customConditional": "",
@@ -2790,7 +2793,7 @@
                                 "rightIcon": "",
                                 "action": "submit",
                                 "removeIndents": false,
-                                "id": "e5pks3d"
+                                "id": "empbzro"
                             }
                         ],
                         "placeholder": "",
@@ -2833,13 +2836,13 @@
                             "when": null,
                             "eq": ""
                         },
-                        "id": "ed752gd"
+                        "id": "et082sb"
                     }
                 ],
                 "mask": false,
                 "tableView": false,
                 "alwaysEnabled": false,
-                "key": "columns6",
+                "key": "columns10",
                 "properties": {},
                 "conditional": {
                     "show": "",
@@ -2847,7 +2850,7 @@
                     "json": "",
                     "eq": ""
                 },
-                "customConditional": "",
+                "customConditional": "var isDraftStatus = data.caseStatus === \"draft\";\r\nvar isCreateMode = instance.options.formMode === 'CREATE';\r\n\r\nshow = !isDraftStatus && !isCreateMode;",
                 "logic": [],
                 "attributes": {},
                 "type": "columns",
@@ -2891,7 +2894,438 @@
                 "inlineColumns": false,
                 "autoAdjust": false,
                 "hideOnChildrenHidden": false,
-                "id": "ehrook6"
+                "id": "e9iyf5s"
+            },
+            {
+                "label": "Columns",
+                "columns": [
+                    {
+                        "components": [
+                            {
+                                "label": "Cancel",
+                                "action": "event",
+                                "state": "",
+                                "shortcut": "",
+                                "block": true,
+                                "mask": false,
+                                "tableView": true,
+                                "alwaysEnabled": false,
+                                "encrypted": false,
+                                "validate": {
+                                    "customMessage": "",
+                                    "json": "",
+                                    "required": false,
+                                    "custom": "",
+                                    "customPrivate": false
+                                },
+                                "key": "submit2",
+                                "properties": {},
+                                "conditional": {
+                                    "json": "",
+                                    "show": "",
+                                    "when": "",
+                                    "eq": ""
+                                },
+                                "customConditional": "",
+                                "logic": [],
+                                "attributes": {},
+                                "type": "button",
+                                "input": true,
+                                "tags": [],
+                                "showValidations": false,
+                                "event": "cancel",
+                                "placeholder": "",
+                                "prefix": "",
+                                "customClass": "",
+                                "suffix": "",
+                                "multiple": false,
+                                "defaultValue": null,
+                                "protected": false,
+                                "unique": false,
+                                "persistent": false,
+                                "hidden": false,
+                                "clearOnHide": true,
+                                "dataGridLabel": true,
+                                "labelPosition": "top",
+                                "labelWidth": 30,
+                                "labelMargin": 3,
+                                "description": "",
+                                "errorLabel": "",
+                                "tooltip": "",
+                                "hideLabel": false,
+                                "tabindex": "",
+                                "disabled": false,
+                                "autofocus": false,
+                                "dbIndex": false,
+                                "customDefaultValue": "",
+                                "calculateValue": "",
+                                "allowCalculateOverride": false,
+                                "widget": null,
+                                "refreshOn": "",
+                                "clearOnRefresh": false,
+                                "validateOn": "change",
+                                "size": "md",
+                                "leftIcon": "",
+                                "rightIcon": "",
+                                "disableOnInvalid": false,
+                                "theme": "default",
+                                "removeIndents": false,
+                                "id": "eucsfe"
+                            }
+                        ],
+                        "xs": 0,
+                        "sm": 12,
+                        "md": 3,
+                        "lg": 0,
+                        "xl": 0,
+                        "classes": "",
+                        "type": "column",
+                        "input": false,
+                        "hideOnChildrenHidden": false,
+                        "key": "column",
+                        "tableView": true,
+                        "label": "Column",
+                        "index": 0,
+                        "placeholder": "",
+                        "prefix": "",
+                        "customClass": "",
+                        "suffix": "",
+                        "multiple": false,
+                        "defaultValue": null,
+                        "protected": false,
+                        "unique": false,
+                        "persistent": true,
+                        "hidden": false,
+                        "clearOnHide": true,
+                        "dataGridLabel": false,
+                        "labelPosition": "top",
+                        "labelWidth": 30,
+                        "labelMargin": 3,
+                        "description": "",
+                        "errorLabel": "",
+                        "tooltip": "",
+                        "hideLabel": false,
+                        "tabindex": "",
+                        "disabled": false,
+                        "autofocus": false,
+                        "dbIndex": false,
+                        "customDefaultValue": "",
+                        "calculateValue": "",
+                        "allowCalculateOverride": false,
+                        "widget": null,
+                        "refreshOn": "",
+                        "clearOnRefresh": false,
+                        "validateOn": "change",
+                        "validate": {
+                            "required": false,
+                            "custom": "",
+                            "customPrivate": false
+                        },
+                        "conditional": {
+                            "show": null,
+                            "when": null,
+                            "eq": ""
+                        },
+                        "id": "e7xfhl8"
+                    },
+                    {
+                        "xs": 0,
+                        "sm": 12,
+                        "md": 3,
+                        "lg": 0,
+                        "xl": 0,
+                        "classes": "",
+                        "type": "column",
+                        "input": false,
+                        "hideOnChildrenHidden": false,
+                        "key": "column",
+                        "tableView": true,
+                        "label": "Column",
+                        "index": 1,
+                        "components": [],
+                        "placeholder": "",
+                        "prefix": "",
+                        "customClass": "",
+                        "suffix": "",
+                        "multiple": false,
+                        "defaultValue": null,
+                        "protected": false,
+                        "unique": false,
+                        "persistent": true,
+                        "hidden": false,
+                        "clearOnHide": true,
+                        "dataGridLabel": false,
+                        "labelPosition": "top",
+                        "labelWidth": 30,
+                        "labelMargin": 3,
+                        "description": "",
+                        "errorLabel": "",
+                        "tooltip": "",
+                        "hideLabel": false,
+                        "tabindex": "",
+                        "disabled": false,
+                        "autofocus": false,
+                        "dbIndex": false,
+                        "customDefaultValue": "",
+                        "calculateValue": "",
+                        "allowCalculateOverride": false,
+                        "widget": null,
+                        "refreshOn": "",
+                        "clearOnRefresh": false,
+                        "validateOn": "change",
+                        "validate": {
+                            "required": false,
+                            "custom": "",
+                            "customPrivate": false
+                        },
+                        "conditional": {
+                            "show": null,
+                            "when": null,
+                            "eq": ""
+                        },
+                        "id": "ekzazlj"
+                    },
+                    {
+                        "xs": 0,
+                        "sm": 12,
+                        "md": 3,
+                        "lg": 0,
+                        "xl": 0,
+                        "classes": "",
+                        "type": "column",
+                        "input": false,
+                        "hideOnChildrenHidden": false,
+                        "key": "column",
+                        "tableView": true,
+                        "label": "Column",
+                        "index": 2,
+                        "components": [],
+                        "placeholder": "",
+                        "prefix": "",
+                        "customClass": "",
+                        "suffix": "",
+                        "multiple": false,
+                        "defaultValue": null,
+                        "protected": false,
+                        "unique": false,
+                        "persistent": true,
+                        "hidden": false,
+                        "clearOnHide": true,
+                        "dataGridLabel": false,
+                        "labelPosition": "top",
+                        "labelWidth": 30,
+                        "labelMargin": 3,
+                        "description": "",
+                        "errorLabel": "",
+                        "tooltip": "",
+                        "hideLabel": false,
+                        "tabindex": "",
+                        "disabled": false,
+                        "autofocus": false,
+                        "dbIndex": false,
+                        "customDefaultValue": "",
+                        "calculateValue": "",
+                        "allowCalculateOverride": false,
+                        "widget": null,
+                        "refreshOn": "",
+                        "clearOnRefresh": false,
+                        "validateOn": "change",
+                        "validate": {
+                            "required": false,
+                            "custom": "",
+                            "customPrivate": false
+                        },
+                        "conditional": {
+                            "show": null,
+                            "when": null,
+                            "eq": ""
+                        },
+                        "id": "edzwtha"
+                    },
+                    {
+                        "xs": 0,
+                        "sm": 12,
+                        "md": 3,
+                        "lg": 0,
+                        "xl": 0,
+                        "classes": "",
+                        "type": "column",
+                        "input": false,
+                        "hideOnChildrenHidden": false,
+                        "key": "column",
+                        "tableView": true,
+                        "label": "Column",
+                        "index": 3,
+                        "components": [
+                            {
+                                "label": "Create",
+                                "state": "",
+                                "theme": "primary",
+                                "shortcut": "",
+                                "block": true,
+                                "mask": false,
+                                "tableView": true,
+                                "alwaysEnabled": false,
+                                "encrypted": false,
+                                "validate": {
+                                    "customMessage": "",
+                                    "json": "",
+                                    "required": false,
+                                    "custom": "",
+                                    "customPrivate": false
+                                },
+                                "key": "submit4",
+                                "properties": {},
+                                "conditional": {
+                                    "show": "",
+                                    "when": "",
+                                    "json": "",
+                                    "eq": ""
+                                },
+                                "customConditional": "",
+                                "logic": [],
+                                "attributes": {},
+                                "type": "button",
+                                "input": true,
+                                "tags": [],
+                                "placeholder": "",
+                                "prefix": "",
+                                "customClass": "",
+                                "suffix": "",
+                                "multiple": false,
+                                "defaultValue": null,
+                                "protected": false,
+                                "unique": false,
+                                "persistent": false,
+                                "hidden": false,
+                                "clearOnHide": true,
+                                "dataGridLabel": true,
+                                "labelPosition": "top",
+                                "labelWidth": 30,
+                                "labelMargin": 3,
+                                "description": "",
+                                "errorLabel": "",
+                                "tooltip": "",
+                                "hideLabel": false,
+                                "tabindex": "",
+                                "disabled": false,
+                                "autofocus": false,
+                                "dbIndex": false,
+                                "customDefaultValue": "",
+                                "calculateValue": "",
+                                "allowCalculateOverride": false,
+                                "widget": null,
+                                "refreshOn": "",
+                                "clearOnRefresh": false,
+                                "validateOn": "change",
+                                "size": "md",
+                                "leftIcon": "",
+                                "rightIcon": "",
+                                "action": "submit",
+                                "disableOnInvalid": false,
+                                "removeIndents": false,
+                                "id": "e0wtswa"
+                            }
+                        ],
+                        "placeholder": "",
+                        "prefix": "",
+                        "customClass": "",
+                        "suffix": "",
+                        "multiple": false,
+                        "defaultValue": null,
+                        "protected": false,
+                        "unique": false,
+                        "persistent": true,
+                        "hidden": false,
+                        "clearOnHide": true,
+                        "dataGridLabel": false,
+                        "labelPosition": "top",
+                        "labelWidth": 30,
+                        "labelMargin": 3,
+                        "description": "",
+                        "errorLabel": "",
+                        "tooltip": "",
+                        "hideLabel": false,
+                        "tabindex": "",
+                        "disabled": false,
+                        "autofocus": false,
+                        "dbIndex": false,
+                        "customDefaultValue": "",
+                        "calculateValue": "",
+                        "allowCalculateOverride": false,
+                        "widget": null,
+                        "refreshOn": "",
+                        "clearOnRefresh": false,
+                        "validateOn": "change",
+                        "validate": {
+                            "required": false,
+                            "custom": "",
+                            "customPrivate": false
+                        },
+                        "conditional": {
+                            "show": null,
+                            "when": null,
+                            "eq": ""
+                        },
+                        "id": "epn9fyb"
+                    }
+                ],
+                "mask": false,
+                "tableView": false,
+                "alwaysEnabled": false,
+                "key": "columns9",
+                "properties": {},
+                "conditional": {
+                    "show": "",
+                    "when": "",
+                    "json": "",
+                    "eq": ""
+                },
+                "customConditional": "var isDraftStatus = data.caseStatus === \"draft\";\r\nvar isCreateMode = instance.options.formMode === 'CREATE';\r\n\r\nshow = isDraftStatus || isCreateMode;",
+                "logic": [],
+                "attributes": {},
+                "type": "columns",
+                "input": false,
+                "tags": [],
+                "placeholder": "",
+                "prefix": "",
+                "customClass": "",
+                "suffix": "",
+                "multiple": false,
+                "defaultValue": null,
+                "protected": false,
+                "unique": false,
+                "persistent": false,
+                "hidden": false,
+                "clearOnHide": false,
+                "dataGridLabel": false,
+                "labelPosition": "top",
+                "labelWidth": 30,
+                "labelMargin": 3,
+                "description": "",
+                "errorLabel": "",
+                "tooltip": "",
+                "hideLabel": false,
+                "tabindex": "",
+                "disabled": false,
+                "autofocus": false,
+                "dbIndex": false,
+                "customDefaultValue": "",
+                "calculateValue": "",
+                "allowCalculateOverride": false,
+                "widget": null,
+                "refreshOn": "",
+                "clearOnRefresh": false,
+                "validateOn": "change",
+                "validate": {
+                    "required": false,
+                    "custom": "",
+                    "customPrivate": false
+                },
+                "inlineColumns": false,
+                "autoAdjust": false,
+                "hideOnChildrenHidden": false,
+                "id": "eglu3rk"
             }
         ]
     },
